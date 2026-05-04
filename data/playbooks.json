@@ -1,0 +1,142 @@
+[
+  {
+    "id": "playbook-build-command-center",
+    "title": "How to Build a Multi-Agent Command Center",
+    "slug": "how-to-build-multi-agent-command-center",
+    "problem": "AI development work loses continuity when tasks, results, tests, and decisions live only in chat.",
+    "whoThisIsFor": ["solo founders", "Codex users", "automation builders"],
+    "verdict": "Use a command center when the project has enough risk or repetition to justify persistent planning files.",
+    "steps": ["Create command-center folders", "Copy the blueprint", "Create progress file", "Create task files", "Require result/test/QA evidence"],
+    "template": "Command Center Folder Template",
+    "checklist": ["Blueprint exists", "Progress file exists", "Task lifecycle defined", "Testing and QA required"],
+    "examples": ["Website foundation batch", "Content production batch", "Affiliate operations batch"],
+    "toolStack": ["Codex", "Markdown", "Next.js"],
+    "failureModes": ["Skipping progress updates", "Letting subagents edit control files", "Marking done without evidence"],
+    "reviewCadence": "After every material task batch",
+    "relatedTools": ["Codex", "OpenClaw"],
+    "relatedComparisons": ["Single Agent vs Multi-Agent Workflow"],
+    "faq": [
+      {
+        "question": "Is this too much process for one person?",
+        "answer": "It can be. Use it when work spans multiple files, SEO, monetization, or production-impacting changes."
+      }
+    ],
+    "targetKeyword": "how to build AI agent command center",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "playbook-safe-agent-workflows",
+    "title": "How to Safely Test AI Agent Workflows",
+    "slug": "how-to-safely-test-ai-agent-workflows",
+    "problem": "Agent workflows can touch files, APIs, browsers, and customer data before safety boundaries are clear.",
+    "whoThisIsFor": ["solo operators", "agent builders", "small agency owners"],
+    "verdict": "Start in draft-only or local-only mode, then add human approval gates before real actions.",
+    "steps": ["Classify risk", "Use fake data", "Run local checks", "Require human approval", "Record failures"],
+    "template": "Deployment Smoke Test Checklist",
+    "checklist": ["No credentials in test data", "No destructive action", "Approval boundary written", "Failure mode recorded"],
+    "examples": ["Draft-only support reply agent", "Local route checker", "Affiliate tracker without active redirects"],
+    "toolStack": ["Local dev server", "Testing agent", "QA checklist"],
+    "failureModes": ["Testing with real customer data", "Letting agent send messages", "Skipping route checks"],
+    "reviewCadence": "Before every production-impacting change",
+    "relatedTools": ["Codex", "OpenClaw"],
+    "relatedComparisons": ["Python Agent Engine vs No-Code Automation"],
+    "faq": [
+      {
+        "question": "What is the safest first test mode?",
+        "answer": "Draft-only local mode with fake data and no external transmission."
+      }
+    ],
+    "targetKeyword": "how to safely test AI agent workflows",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "playbook-make-lead-intake",
+    "title": "Make AI Lead Intake Workflow Outline",
+    "slug": "make-ai-lead-intake-workflow-outline",
+    "problem": "Solo operators need to collect leads, qualify them, and trigger follow-up without building a custom backend first.",
+    "whoThisIsFor": ["solo founders", "service providers", "automation builders"],
+    "verdict": "Use Make when the workflow is mostly visual app-to-app automation and the risky parts can stay draft-only.",
+    "steps": ["Define the lead source", "Capture the form payload", "Add AI qualification as a draft step", "Write qualified leads to a database", "Send only human-approved follow-up"],
+    "template": "Affiliate Target Tracker",
+    "checklist": ["No automatic sales promises", "Human review before outreach", "Test with fake leads", "Log failure cases"],
+    "examples": ["Website form to Airtable", "Form to email draft", "Lead score to review queue"],
+    "toolStack": ["Make", "Airtable", "Email draft tool"],
+    "failureModes": ["Sending unreviewed messages", "Misclassifying leads", "Storing sensitive data without a policy"],
+    "reviewCadence": "Review lead quality weekly until stable",
+    "relatedTools": ["Make", "Airtable"],
+    "relatedComparisons": ["OpenClaw vs Make for Solo Business Automation"],
+    "faq": [
+      {
+        "question": "Is this a completed hands-on tutorial?",
+        "answer": "No. This is an implementation outline. A hands-on version should be created after testing in a real Make account."
+      }
+    ],
+    "targetKeyword": "Make AI lead intake workflow",
+    "searchIntent": "implementation",
+    "monetizationPriority": "high",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "playbook-n8n-research-agent",
+    "title": "n8n AI Research Agent Workflow Outline",
+    "slug": "n8n-ai-research-agent-workflow-outline",
+    "problem": "Research workflows need repeatable collection, source tracking, and review before facts appear in public content.",
+    "whoThisIsFor": ["technical solo founders", "content operators", "automation consultants"],
+    "verdict": "Use n8n when the workflow needs API-heavy orchestration, scheduled research, or self-hostable automation.",
+    "steps": ["Create a research trigger", "Fetch public source URLs", "Summarize findings", "Separate facts from assumptions", "Send results to QA before publishing"],
+    "template": "Research Result Template",
+    "checklist": ["Source URLs recorded", "Assumptions labeled", "No private data scraped", "QA required before publishing"],
+    "examples": ["Affiliate target research", "Competitor page monitoring", "Tool documentation updates"],
+    "toolStack": ["n8n", "HTTP nodes", "Markdown or JSON output"],
+    "failureModes": ["Publishing stale data", "Mixing assumptions with facts", "Over-automating source selection"],
+    "reviewCadence": "Review source quality after every run until stable",
+    "relatedTools": ["n8n"],
+    "relatedComparisons": ["Python Agent Engine vs No-Code Automation"],
+    "faq": [
+      {
+        "question": "Is this a completed hands-on tutorial?",
+        "answer": "No. This is an implementation outline. A hands-on version should be created after testing in n8n Cloud or a self-hosted n8n instance."
+      }
+    ],
+    "targetKeyword": "n8n AI research agent workflow",
+    "searchIntent": "implementation",
+    "monetizationPriority": "high",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "playbook-railway-agent-helper",
+    "title": "Railway AI Agent Helper Deployment Outline",
+    "slug": "railway-ai-agent-helper-deployment-outline",
+    "problem": "Some AI workflows need a small always-on helper service for webhooks, API wrappers, or scheduled jobs.",
+    "whoThisIsFor": ["developer-founders", "automation builders", "technical freelancers"],
+    "verdict": "Use Railway when you need a lightweight hosted service and want a simpler path than larger cloud platforms.",
+    "steps": ["Define the helper endpoint", "Keep secrets in environment variables", "Deploy a minimal API", "Connect Make or n8n webhooks", "Run a production smoke test"],
+    "template": "Deployment Smoke Test Checklist",
+    "checklist": ["No secrets in repo", "Health route exists", "Webhook test passes", "Rollback plan exists"],
+    "examples": ["Webhook receiver", "AI API wrapper", "Scheduled content refresh job"],
+    "toolStack": ["Railway", "Next.js or Python API", "Make or n8n"],
+    "failureModes": ["Missing environment variables", "No health check", "Unbounded API costs"],
+    "reviewCadence": "Check deployment logs after each release",
+    "relatedTools": ["Railway"],
+    "relatedComparisons": ["Python Agent Engine vs No-Code Automation"],
+    "faq": [
+      {
+        "question": "Is this a completed hands-on tutorial?",
+        "answer": "No. This is an implementation outline. A hands-on version should be created after deploying a real demo service."
+      }
+    ],
+    "targetKeyword": "deploy AI agent on Railway",
+    "searchIntent": "implementation",
+    "monetizationPriority": "high",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  }
+]

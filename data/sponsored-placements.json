@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sponsor-recommended-runtime",
+    "name": "Recommended Runtime Slot",
+    "slug": "recommended-runtime-slot",
+    "placementType": "recommended_runtime",
+    "status": "available",
+    "targetPages": ["skills", "workflows", "comparisons"],
+    "disclosureLabel": "Sponsored",
+    "notes": "Inventory placeholder only. No active sponsor."
+  },
+  {
+    "id": "sponsor-featured-stack",
+    "name": "Featured Agent Stack Slot",
+    "slug": "featured-agent-stack-slot",
+    "placementType": "featured_stack",
+    "status": "available",
+    "targetPages": ["stacks", "playbooks"],
+    "disclosureLabel": "Sponsored placement",
+    "notes": "Inventory placeholder only. No active sponsor."
+  }
+]

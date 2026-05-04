@@ -1,0 +1,367 @@
+[
+  {
+    "id": "comparison-openclaw-vs-zapier",
+    "title": "OpenClaw vs Zapier for One-Person Companies",
+    "slug": "openclaw-vs-zapier-one-person-companies",
+    "targetKeyword": "OpenClaw vs Zapier",
+    "searchIntent": "commercial",
+    "comparedItems": ["OpenClaw", "Zapier"],
+    "winner": "Conditional: Zapier for no-code SaaS automation, OpenClaw for agent-controlled workflows.",
+    "bestForBeginners": "Zapier",
+    "bestForAdvancedUsers": "OpenClaw",
+    "bestForNoCode": "Zapier",
+    "bestForDevelopers": "OpenClaw",
+    "cheapestOption": "Depends on workflow volume and whether local agent work can replace paid automation tasks.",
+    "safestOption": "Zapier for mature managed integrations; OpenClaw only with explicit human approval boundaries.",
+    "comparisonTable": [
+      {
+        "criteria": "Primary use case",
+        "openclaw": "Agent workflows, skills, local/operator-controlled execution",
+        "zapier": "No-code app-to-app automation"
+      },
+      {
+        "criteria": "OPC fit",
+        "openclaw": "Strong for technical solo operators",
+        "zapier": "Strong for non-technical solo operators"
+      },
+      {
+        "criteria": "Human approval",
+        "openclaw": "Must be designed into the workflow",
+        "zapier": "Often handled through app permissions and manual review steps"
+      }
+    ],
+    "finalVerdict": "Use Zapier when you need reliable no-code app automation quickly. Use OpenClaw when the workflow needs an agent that can reason, draft, inspect files, or follow a custom operating process.",
+    "whenToChooseEach": [
+      "Choose Zapier for standard SaaS triggers and actions.",
+      "Choose OpenClaw for agent skills, local workflows, and custom decision loops.",
+      "Use both when Zapier handles integrations and OpenClaw handles planning or review."
+    ],
+    "researchNotes": [
+      "Zapier's public partner documentation found in this pass is strongest for integration, solution, and creator partner paths rather than a simple confirmed affiliate link for this site.",
+      "OpenClaw skill and SOUL.md references are strongest for agent identity, skills, and local/operator-controlled workflows, so the comparison should be framed as automation platform versus agent operating layer.",
+      "Recommendation should stay conditional until the site has a hands-on OpenClaw workflow and a hands-on Zapier scenario."
+    ],
+    "sources": [
+      {
+        "title": "Zapier Partner Program documentation",
+        "url": "https://docs.zapier.com/integrations/publish/partner-program"
+      },
+      {
+        "title": "Official Zapier Partner Program",
+        "url": "https://zapier.com/l/partners"
+      },
+      {
+        "title": "OpenClaw SOUL.md guide",
+        "url": "https://clawdocs.org/guides/soul-md/"
+      }
+    ],
+    "affiliateToolSlugs": [],
+    "relatedSkills": ["AI Task Planning Skill", "AI Deployment Smoke Test Skill"],
+    "relatedWorkflows": ["Multi-Agent Development Command Center"],
+    "faq": [
+      {
+        "question": "Is OpenClaw a Zapier replacement?",
+        "answer": "Not directly. OpenClaw is better understood as an agent workflow layer, while Zapier is a mature app automation platform."
+      },
+      {
+        "question": "Which is safer for a solo founder?",
+        "answer": "Zapier is usually safer for standard integrations. OpenClaw requires more explicit approval boundaries for actions involving files, credentials, or customer data."
+      }
+    ],
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "comparison-openclaw-vs-make",
+    "title": "OpenClaw vs Make for Solo Business Automation",
+    "slug": "openclaw-vs-make-solo-business-automation",
+    "targetKeyword": "OpenClaw vs Make",
+    "searchIntent": "commercial",
+    "comparedItems": ["OpenClaw", "Make"],
+    "winner": "Conditional: Make for visual scenario automation, OpenClaw for agent behavior and skill execution.",
+    "bestForBeginners": "Make",
+    "bestForAdvancedUsers": "OpenClaw",
+    "bestForNoCode": "Make",
+    "bestForDevelopers": "OpenClaw",
+    "cheapestOption": "Make may be cheaper for simple scheduled automations; OpenClaw may be cheaper for local agent work if you already run the stack.",
+    "safestOption": "Make for predictable app flows; OpenClaw with draft-only or approval-first execution for high-risk tasks.",
+    "comparisonTable": [
+      {
+        "criteria": "Workflow style",
+        "openclaw": "Agent-led skills and prompts",
+        "make": "Visual scenarios and app modules"
+      },
+      {
+        "criteria": "Best OPC use",
+        "openclaw": "Planning, review, drafting, file-based workflows",
+        "make": "Data sync, notifications, scheduled automations"
+      },
+      {
+        "criteria": "Learning curve",
+        "openclaw": "Higher for non-technical users",
+        "make": "Moderate for visual automation builders"
+      }
+    ],
+    "finalVerdict": "Use Make for repeatable app workflows with visible scenario logic. Use OpenClaw when a workflow needs agent judgment, content generation, or file-based project memory.",
+    "whenToChooseEach": [
+      "Choose Make for CRM, email, and spreadsheet automations.",
+      "Choose OpenClaw for agent roles and command-center workflows.",
+      "Combine them when Make handles integrations and OpenClaw prepares or reviews the work."
+    ],
+    "researchNotes": [
+      "Make has a clearer self-serve affiliate path than Zapier for this site's first monetization batch.",
+      "Make's help center states affiliates can earn commission when users register for paid Make accounts through a unique link, with 35% commission for 12 months.",
+      "This page should become a high-priority commercial page after one original Make workflow tutorial is created."
+    ],
+    "sources": [
+      {
+        "title": "Make affiliate page",
+        "url": "https://www.make.com/en/affiliate"
+      },
+      {
+        "title": "Make affiliate program help center",
+        "url": "https://help.make.com/affiliate-program"
+      },
+      {
+        "title": "OpenClaw SOUL.md guide",
+        "url": "https://clawdocs.org/guides/soul-md/"
+      }
+    ],
+    "affiliateToolSlugs": [],
+    "relatedSkills": ["AI Affiliate Tracker Skill", "AI Research Collector Skill"],
+    "relatedWorkflows": ["AI Affiliate Operations Workflow"],
+    "faq": [
+      {
+        "question": "Can Make run AI agent workflows?",
+        "answer": "Make can call AI services and automate steps, but agent roles and file-driven project memory usually need a separate design layer."
+      },
+      {
+        "question": "Which should a technical solo founder start with?",
+        "answer": "Start with the tool that matches the bottleneck: Make for integrations, OpenClaw for agent-controlled work."
+      }
+    ],
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "comparison-soul-md-vs-prompt-templates",
+    "title": "SOUL.md Agent Templates vs Prompt Templates",
+    "slug": "soul-md-agent-templates-vs-prompt-templates",
+    "targetKeyword": "SOUL.md vs prompt templates",
+    "searchIntent": "comparison",
+    "comparedItems": ["SOUL.md agent templates", "Prompt templates"],
+    "winner": "SOUL.md templates for persistent agent identity; prompt templates for lightweight repeatable instructions.",
+    "bestForBeginners": "Prompt templates",
+    "bestForAdvancedUsers": "SOUL.md agent templates",
+    "bestForNoCode": "Prompt templates",
+    "bestForDevelopers": "SOUL.md agent templates",
+    "cheapestOption": "Prompt templates because they require less runtime structure.",
+    "safestOption": "Prompt templates for low-risk drafting; SOUL.md templates only when permissions and boundaries are explicit.",
+    "comparisonTable": [
+      {
+        "criteria": "Persistence",
+        "soulMd": "Designed for durable agent behavior",
+        "promptTemplates": "Often copied into a single interaction"
+      },
+      {
+        "criteria": "Best use",
+        "soulMd": "Agent roles with mission, style, boundaries, and deliverables",
+        "promptTemplates": "Repeatable writing or analysis tasks"
+      },
+      {
+        "criteria": "Risk",
+        "soulMd": "Higher if the agent can access tools",
+        "promptTemplates": "Lower when used in chat-only mode"
+      }
+    ],
+    "finalVerdict": "Use prompt templates for simple repeatable outputs. Use SOUL.md-style profiles when you want an agent role that behaves like a defined business function over time.",
+    "whenToChooseEach": [
+      "Choose prompt templates for one-off drafts.",
+      "Choose SOUL.md profiles for persistent agent roles.",
+      "Use SOUL.md profiles with explicit must-not-do and approval boundaries."
+    ],
+    "researchNotes": [
+      "OpenClaw documentation describes SOUL.md as a persistent Markdown file injected into the agent's system prompt before messages.",
+      "The official OpenClaw repository includes a SOUL.md template reference, supporting the idea that SOUL.md is a structured agent-profile artifact rather than a one-off prompt.",
+      "Community template collections suggest a large supply of copy-paste SOUL.md profiles, but QA should treat template quality as variable."
+    ],
+    "sources": [
+      {
+        "title": "OpenClaw SOUL.md guide",
+        "url": "https://clawdocs.org/guides/soul-md/"
+      },
+      {
+        "title": "OpenClaw SOUL.md template reference",
+        "url": "https://github.com/openclaw/openclaw/blob/main/docs/reference/templates/SOUL.md"
+      },
+      {
+        "title": "Awesome OpenClaw agents collection",
+        "url": "https://github.com/mergisi/awesome-openclaw-agents"
+      }
+    ],
+    "affiliateToolSlugs": [],
+    "relatedSkills": ["AI Command Center Memory Skill", "AI QA Review Skill"],
+    "relatedWorkflows": ["Multi-Agent Development Command Center"],
+    "faq": [
+      {
+        "question": "Are SOUL.md templates safer than prompts?",
+        "answer": "They are not automatically safer. They become safer when they include clear tool limits, must-not-do rules, and human approval boundaries."
+      },
+      {
+        "question": "Should every solo founder use SOUL.md agents?",
+        "answer": "No. Use them when the role needs persistence and repeatable operating behavior."
+      }
+    ],
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "comparison-single-agent-vs-multi-agent-workflow",
+    "title": "Single Agent vs Multi-Agent Workflow",
+    "slug": "single-agent-vs-multi-agent-workflow",
+    "targetKeyword": "single agent vs multi-agent workflow",
+    "searchIntent": "comparison",
+    "comparedItems": ["Single agent", "Multi-agent workflow"],
+    "winner": "Single agent for speed; multi-agent workflow for controlled execution with testing and QA.",
+    "bestForBeginners": "Single agent",
+    "bestForAdvancedUsers": "Multi-agent workflow",
+    "bestForNoCode": "Single agent",
+    "bestForDevelopers": "Multi-agent workflow",
+    "cheapestOption": "Single agent because it has less coordination overhead.",
+    "safestOption": "Multi-agent workflow when testing, QA, and final verification are enforced.",
+    "comparisonTable": [
+      {
+        "criteria": "Speed",
+        "singleAgent": "Fastest for simple tasks",
+        "multiAgent": "Slower but more controlled"
+      },
+      {
+        "criteria": "Quality gate",
+        "singleAgent": "Depends on the same agent self-checking",
+        "multiAgent": "Can separate implementation, testing, and QA"
+      },
+      {
+        "criteria": "Best OPC use",
+        "singleAgent": "Small fixes and drafts",
+        "multiAgent": "Content platforms, code changes, complex workflows"
+      }
+    ],
+    "finalVerdict": "Use a single agent for small reversible work. Use a multi-agent workflow when the work affects production, SEO, monetization, or customer-facing trust.",
+    "whenToChooseEach": [
+      "Choose single agent when the task is low-risk and fast to inspect.",
+      "Choose multi-agent when the task needs implementation, testing, QA, and progress tracking.",
+      "Avoid multi-agent ceremony for tiny one-step edits."
+    ],
+    "researchNotes": [
+      "The project's own command-center workflow is the primary evidence layer for this comparison because it has already separated planning, implementation, testing, QA, and final verification.",
+      "OpenClaw SOUL.md and agent-template references support persistent role design, while the site should avoid claiming that multi-agent is universally superior.",
+      "The strongest launch angle is operational: use multi-agent when work affects production, SEO, monetization, or customer-facing trust."
+    ],
+    "sources": [
+      {
+        "title": "OpenClaw SOUL.md guide",
+        "url": "https://clawdocs.org/guides/soul-md/"
+      },
+      {
+        "title": "Awesome OpenClaw agents collection",
+        "url": "https://github.com/mergisi/awesome-openclaw-agents"
+      },
+      {
+        "title": "AI Multi-Agent Development Guideline in this project",
+        "url": "/AI_MULTI_AGENT_DEVELOPMENT_GUIDELINE.md"
+      }
+    ],
+    "affiliateToolSlugs": [],
+    "relatedSkills": ["AI Task Planning Skill", "AI Testing Skill", "AI QA Review Skill"],
+    "relatedWorkflows": ["Multi-Agent Development Command Center"],
+    "faq": [
+      {
+        "question": "Is multi-agent always better?",
+        "answer": "No. Multi-agent workflows add coordination cost and are best when the task has real risk or repeated value."
+      },
+      {
+        "question": "What is the minimum useful multi-agent setup?",
+        "answer": "A Chat Agent, a Task Planner, a DEV role, a TEST role, and a QA role."
+      }
+    ],
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  },
+  {
+    "id": "comparison-python-agent-engine-vs-no-code-automation",
+    "title": "Python Agent Engine vs No-Code Automation",
+    "slug": "python-agent-engine-vs-no-code-automation",
+    "targetKeyword": "Python agent engine vs no-code automation",
+    "searchIntent": "commercial",
+    "comparedItems": ["Python agent engine", "No-code automation"],
+    "winner": "No-code automation for simple app flows; Python agent engine for custom orchestration and evaluation.",
+    "bestForBeginners": "No-code automation",
+    "bestForAdvancedUsers": "Python agent engine",
+    "bestForNoCode": "No-code automation",
+    "bestForDevelopers": "Python agent engine",
+    "cheapestOption": "No-code can be cheaper at small scale; Python can be cheaper when custom logic replaces many paid operations.",
+    "safestOption": "No-code for managed integrations; Python only with tests, logs, and approval gates.",
+    "comparisonTable": [
+      {
+        "criteria": "Customization",
+        "pythonAgentEngine": "High",
+        "noCodeAutomation": "Limited to platform modules"
+      },
+      {
+        "criteria": "Maintenance",
+        "pythonAgentEngine": "Requires engineering discipline",
+        "noCodeAutomation": "Requires scenario upkeep"
+      },
+      {
+        "criteria": "Best OPC use",
+        "pythonAgentEngine": "Research, content generation, QA evaluation, custom pipelines",
+        "noCodeAutomation": "Notifications, CRM sync, simple scheduled operations"
+      }
+    ],
+    "finalVerdict": "Start with no-code if the workflow is mostly app-to-app movement. Build a Python agent engine when you need custom planning, evaluation, scoring, or batch generation that no-code tools cannot express cleanly.",
+    "whenToChooseEach": [
+      "Choose no-code automation for predictable integrations.",
+      "Choose Python for custom data extraction, scoring, and agent orchestration.",
+      "Use Python later if the no-code workflow becomes too expensive or too constrained."
+    ],
+    "researchNotes": [
+      "n8n has a current public affiliate page that says affiliates can earn 30% commission on n8n Cloud referrals for the first year.",
+      "Railway has public affiliate documentation and is a strong tutorial fit for hosting small agent APIs, webhook servers, and automation helpers.",
+      "Airtable's public materials are more partner/referral oriented than a simple affiliate-link flow, so Airtable should be treated as a content pillar until partner fit is confirmed.",
+      "Semrush has a public affiliate program powered by Impact and fits the SEO workflow side of the site rather than the agent runtime layer."
+    ],
+    "sources": [
+      {
+        "title": "n8n affiliate program",
+        "url": "https://n8n.io/affiliates/"
+      },
+      {
+        "title": "Railway affiliate program",
+        "url": "https://docs.railway.com/community/affiliate-program"
+      },
+      {
+        "title": "Airtable referral partner addendum",
+        "url": "https://www.airtable.com/company/referral-partner-addendum"
+      },
+      {
+        "title": "Semrush affiliate program",
+        "url": "https://www.semrush.com/lp/affiliate-program/en/"
+      }
+    ],
+    "affiliateToolSlugs": [],
+    "relatedSkills": ["AI Research Collector Skill", "AI SEO Brief Skill", "AI Affiliate Tracker Skill"],
+    "relatedWorkflows": ["AI-Powered Content Production Workflow"],
+    "faq": [
+      {
+        "question": "Should a solo founder build a Python agent engine first?",
+        "answer": "Usually no. Start with the simplest workflow that proves value, then add Python when customization becomes the bottleneck."
+      },
+      {
+        "question": "Can no-code tools and Python work together?",
+        "answer": "Yes. No-code tools can handle integrations while Python handles custom research, scoring, and content pipelines."
+      }
+    ],
+    "status": "ready",
+    "lastReviewedAt": "2026-05-02"
+  }
+]

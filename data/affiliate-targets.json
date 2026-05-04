@@ -1,0 +1,79 @@
+[
+  {
+    "id": "affiliate-make",
+    "toolName": "Make",
+    "slug": "make",
+    "category": "Automation platform / no-code workflow builder",
+    "status": "planned",
+    "publicUrl": "https://www.make.com/en/affiliate",
+    "targetPages": [
+      "openclaw-vs-make-solo-business-automation",
+      "python-agent-engine-vs-no-code-automation"
+    ],
+    "disclosureRequired": true,
+    "nextAction": "Apply through the official Make affiliate page, then build one hands-on Make workflow tutorial before publishing comparison pages.",
+    "notes": "Research verified a public affiliate page and help-center materials. No approval or active affiliate URL claimed.",
+    "lastCheckedAt": "2026-05-02"
+  },
+  {
+    "id": "affiliate-n8n",
+    "toolName": "n8n",
+    "slug": "n8n",
+    "category": "Automation platform / technical AI workflow builder",
+    "status": "planned",
+    "publicUrl": "https://n8n.io/affiliates/",
+    "targetPages": [
+      "openclaw-vs-make-solo-business-automation",
+      "python-agent-engine-vs-no-code-automation"
+    ],
+    "disclosureRequired": true,
+    "nextAction": "Apply through the official n8n affiliate page, then create one original n8n workflow/template to anchor review and tutorial content.",
+    "notes": "Research verified a public affiliate page and support article. No approval or active affiliate URL claimed.",
+    "lastCheckedAt": "2026-05-02"
+  },
+  {
+    "id": "affiliate-railway",
+    "toolName": "Railway",
+    "slug": "railway",
+    "category": "Hosting / deployment for agents and small apps",
+    "status": "planned",
+    "publicUrl": "https://docs.railway.com/community/affiliate-program",
+    "targetPages": [
+      "python-agent-engine-vs-no-code-automation"
+    ],
+    "disclosureRequired": true,
+    "nextAction": "Create a Railway account, generate the referral link from the dashboard, and publish a simple deployable demo repo/tutorial before broader comparison content.",
+    "notes": "Research verified public affiliate documentation. No active referral URL stored yet.",
+    "lastCheckedAt": "2026-05-02"
+  },
+  {
+    "id": "affiliate-airtable",
+    "toolName": "Airtable",
+    "slug": "airtable",
+    "category": "Database / lightweight CRM / operations database",
+    "status": "planned",
+    "publicUrl": "https://www.airtable.com/company/referral-partner-addendum",
+    "targetPages": [
+      "python-agent-engine-vs-no-code-automation"
+    ],
+    "disclosureRequired": true,
+    "nextAction": "Review Airtable partner requirements and apply only if the project can support registered-lead/referral handling.",
+    "notes": "Research found partner/referral documentation rather than a simple self-serve affiliate-link flow. Treat as strategic content pillar until partner fit is confirmed.",
+    "lastCheckedAt": "2026-05-02"
+  },
+  {
+    "id": "affiliate-semrush",
+    "toolName": "Semrush",
+    "slug": "semrush",
+    "category": "SEO / AI visibility / marketing intelligence",
+    "status": "planned",
+    "publicUrl": "https://www.semrush.com/lp/affiliate-program/en/",
+    "targetPages": [
+      "python-agent-engine-vs-no-code-automation"
+    ],
+    "disclosureRequired": true,
+    "nextAction": "Apply through Semrush's official affiliate program page, then build one original keyword-research walkthrough for this site's own niche.",
+    "notes": "Research verified a public affiliate program page and knowledge-base materials. No approval or active affiliate URL claimed.",
+    "lastCheckedAt": "2026-05-02"
+  }
+]
