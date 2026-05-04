@@ -22,7 +22,7 @@
 | Sponsor readiness status | Placeholder inventory created, no active sponsor |
 | Deployment status | Deployed to Vercel |
 | Production URL | https://ai-agent-skill-opc.vercel.app |
-| Search Console status | Metadata support ready; user needs to add GOOGLE_SITE_VERIFICATION token to Vercel |
+| Search Console status | Token obtained (IR55R-uAvcAsABYqwVErVL-OroreCSpE4PO_T1RZQWA); user needs to add GOOGLE_SITE_VERIFICATION to Vercel |
 | Production route check result | PASS |
 
 ## Task Vs Actual Progress
@@ -77,10 +77,10 @@
 
 ## Not Done Yet
 
-- Google Search Console verification (user needs to add GOOGLE_SITE_VERIFICATION token to Vercel environment variables).
+- Google Search Console verification (user needs to add GOOGLE_SITE_VERIFICATION=IR55R-uAvcAsABYqwVErVL-OroreCSpE4PO_T1RZQWA to Vercel environment variables).
 - Persistent outbound click tracking.
 - Real hands-on tutorial evidence for priority affiliate targets.
-- Actual Search Console sitemap submission (after verification token is added).
+- Actual Search Console sitemap submission (after verification completes).
 
 ## Current Next Recommended Steps
 
