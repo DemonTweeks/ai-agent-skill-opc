@@ -39,9 +39,9 @@ Create the minimum foundation needed to build a monetizable SEO-first AI agent s
 | TASK-020 | Add 5 more agent roles | WRITE | High | DONE | Yes |
 | TASK-021 | Add 3 more workflows | WRITE | High | DONE | Yes |
 | TASK-022 | Add 5 more templates | WRITE | High | DONE | Yes |
-| TASK-023 | Design database schema | DEV | High | PENDING | Yes |
-| TASK-024 | Create TypeScript types | DEV | High | PENDING | Yes |
-| TASK-025 | Add connection setup | DEV | High | PENDING | Yes |
+| TASK-023 | Design database schema | DEV | High | DONE | Yes |
+| TASK-024 | Create TypeScript types | DEV | High | DONE | Yes |
+| TASK-025 | Add connection setup | DEV | High | BLOCKED_BY_USER | Yes |
 | TASK-026 | Add feedback form component | DEV | Medium | PENDING | Yes |
 | TASK-027 | Implement feedback API | DEV | Medium | PENDING | Yes |
 | TASK-028 | Add feedback links | DEV | Medium | PENDING | Yes |
@@ -57,8 +57,8 @@ Create the minimum foundation needed to build a monetizable SEO-first AI agent s
 | Task ID | Title | Agent Type | Priority | Status |
 |---|---|---|---|---|
 | TASK-035 | Add real hands-on tutorial evidence | RESEARCH/WRITE | High | BLOCKED_BY_TOOL_ACCOUNTS |
-| TASK-036 | Implement persistent click tracking | DEV | High | BLOCKED_BY_DATABASE_CHOICE |
-| TASK-037 | Submit Search Console sitemap | DEV | Medium | BLOCKED_BY_USER_TOKEN |
+| TASK-036 | Implement persistent click tracking | DEV | High | BLOCKED_BY_DATABASE_SETUP |
+| TASK-037 | Submit Search Console sitemap | DEV | Medium | DONE |
 
 ## Control Rules
 

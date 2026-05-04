@@ -20,9 +20,9 @@
 | Category count | 4 seed records |
 | Affiliate target status | Research options ready: Make, n8n, Railway, Airtable, Semrush; no active approvals claimed |
 | Sponsor readiness status | Placeholder inventory created, no active sponsor |
-| Deployment status | Deployed to Vercel |
+| Deployment status | Deployed to Vercel via CLI and linked to GitHub |
 | Production URL | https://ai-agent-skill-opc.vercel.app |
-| Search Console status | Token obtained (IR55R-uAvcAsABYqwVErVL-OroreCSpE4PO_T1RZQWA); user needs to add GOOGLE_SITE_VERIFICATION to Vercel |
+| Search Console status | Verified in Search Console; sitemap submitted |
 | Production route check result | PASS |
 
 ## Task Vs Actual Progress
@@ -45,7 +45,7 @@
 | Deepen commercial comparisons | Source-backed notes and source links added to 5 comparison pages | DONE |
 | Add tutorial outline playbooks | Make, n8n, and Railway tutorial outline playbooks added and deployed | DONE |
 | Add missing related content records | Added missing agent, workflow, and template records so related labels resolve | DONE |
-| Add Search Console verification support | Environment-driven Google verification metadata added; no token hardcoded | DONE_NEEDS_USER_TOKEN |
+| Add Search Console verification support | Environment-driven Google verification metadata added and Search Console HTML tag verified | DONE |
 | Add tool profile collection | Added non-affiliate tool data, list/detail routes, sitemap entries, and resolver support | DONE |
 
 ## Completed Work
@@ -74,20 +74,20 @@
 - Added environment-driven Google Search Console verification metadata support.
 - Added dedicated tool profile collection for Codex, OpenClaw, Next.js, Markdown, local dev server, and Vercel.
 - **Batch 7 Content Expansion completed: Added 10 new skill records (21 total), 5 new agent roles (18 total), 3 new workflows (8 total), and 5 new templates (16 total).**
+- **Batch 8 Infrastructure started: Database schema designed with affiliate_clicks, page_views, user_feedback, and conversions tables.**
 
 ## Not Done Yet
 
-- Google Search Console verification (user needs to add GOOGLE_SITE_VERIFICATION=IR55R-uAvcAsABYqwVErVL-OroreCSpE4PO_T1RZQWA to Vercel environment variables).
-- Persistent outbound click tracking.
+- Add DATABASE_URL to Vercel (user action required).
+- Persistent outbound click tracking (blocked by DATABASE_URL).
 - Real hands-on tutorial evidence for priority affiliate targets.
-- Actual Search Console sitemap submission (after verification completes).
 
 ## Current Next Recommended Steps
 
-1. **Batch 8 Infrastructure**: Design database schema for click tracking and affiliate data (TASK-023)
+1. **Batch 8 Infrastructure**: Design database schema for click tracking and affiliate data (TASK-023) — DONE
 2. Add real hands-on tutorial evidence for Make, n8n, and Railway after tool-account access is available.
 3. Add persistent outbound click tracking after database choice.
-4. Submit Search Console sitemap after user adds the verification token.
+4. Monitor Search Console index status and update sitemap if needed.
 5. Continue expanding content records.
 
 ## Latest Progress Log
@@ -107,6 +107,8 @@
 | 2026-05-05 | Added 3 new workflow templates expanding total to 8 workflows |
 | 2026-05-05 | Added 5 new implementation templates expanding total to 16 templates |
 | 2026-05-05 | Batch 7 Content Expansion completed - 50% content growth achieved |
+| 2026-05-05 | Designed database schema for click tracking and affiliate analytics |
+| 2026-05-05 | Submitted sitemap to Google Search Console |
 | 2026-05-02 | Deployed to Vercel at https://ai-agent-skill-opc.vercel.app and verified production SEO routes |
 | 2026-05-02 | Added source-backed research notes to comparison pages and redeployed to Vercel |
 | 2026-05-02 | Added Make, n8n, and Railway tutorial outline playbooks and verified production routes |
