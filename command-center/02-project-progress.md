@@ -9,9 +9,9 @@
 | Command center | Created |
 | Web app | Scaffolded locally and running |
 | Data schema | Created |
-| Skill count | 21 seed records |
+| Skill count | 37 records (16 from OpenClaw skill repos) |
 | Comparison count | 5 source-backed outlines |
-| Agent count | 18 seed records |
+| Agent count | 119 records (101 from GitHub repos) |
 | Workflow count | 8 seed records |
 | Template count | 16 seed records |
 | Tool profile count | 6 seed records |
@@ -47,6 +47,8 @@
 | Add missing related content records | Added missing agent, workflow, and template records so related labels resolve | DONE |
 | Add Search Console verification support | Environment-driven Google verification metadata added and Search Console HTML tag verified | DONE |
 | Add tool profile collection | Added non-affiliate tool data, list/detail routes, sitemap entries, and resolver support | DONE |
+| Import real agent data | 101 agents from msitarzewski/agency-agents and mergisi/awesome-openclaw-agents (119 total) | DONE |
+| Import real skill content | 16 skills with SKILL.md content from mergisi/awesome-openclaw-agents (37 total) | DONE |
 
 ## Completed Work
 
@@ -77,6 +79,7 @@
 - **Batch 8 Infrastructure completed: Database schema designed, TypeScript types created, Postgres database configured with Neon. Affiliate click tracking ready for deployment.**
 - **Batch 9 UX Enhancement started: Added user feedback form component (TASK-026) and feedback API route (TASK-027).**
 - **Batch 9 continued: Added feedback form to all 9 detail page types (TASK-028) - agents, comparisons, workflows, templates, playbooks, stacks, tools, categories, and skills.**
+- **Real content imported: 101 agents from GitHub repos (119 total), 16 skills with real SKILL.md content from OpenClaw collection (37 total).**
 
 ## Not Done Yet
 
@@ -128,3 +131,9 @@
 | 2026-05-07 | Added feedback form to skill detail pages for user feedback collection |
 | 2026-05-07 | Added FeedbackForm component to all 9 detail page types (TASK-028) |
 | 2026-05-07 | Verified build passes with 110 routes including /api/feedback |
+| 2026-05-07 | Imported 101 real agents from msitarzewski/agency-agents and mergisi/awesome-openclaw-agents (119 total) |
+| 2026-05-07 | Imported 16 real skills with SKILL.md content from mergisi/awesome-openclaw-agents (37 total) |
+| 2026-05-07 | Pushed to GitHub, Vercel building new deployment with real content |
+| 2026-05-07 | Added skillDefinition field with full SKILL.md content to 16 OpenClaw skills |
+| 2026-05-07 | Updated skill detail page to show collapsible source content |
+| 2026-05-07 | Build passed, pushed 5-file update (types, CSS, page, data, script) |
