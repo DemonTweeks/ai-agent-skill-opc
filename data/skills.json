@@ -6,15 +6,47 @@
     "shortDescription": "Break a vague business goal into scoped tasks, dependencies, and acceptance criteria.",
     "longDescription": "A planning skill for turning solo-operator goals into executable task files, dependency maps, and verification steps before implementation starts.",
     "businessFunction": "Operations",
-    "capabilityCategory": ["Planning", "Decision Support", "Workflow Automation"],
-    "runtimeCategory": ["Codex / IDE Agents", "Python Agent Engine", "Local Agents"],
+    "capabilityCategory": [
+      "Planning",
+      "Decision Support",
+      "Workflow Automation"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Python Agent Engine",
+      "Local Agents"
+    ],
     "problemSolved": "Solo founders often start building before the scope, dependencies, and verification gates are clear.",
-    "bestFor": ["multi-agent development", "content production planning", "repeatable operations"],
-    "notFor": ["tiny one-step tasks", "urgent manual fixes with no planning value"],
-    "inputs": ["user goal", "blueprint", "constraints", "available files"],
-    "outputs": ["task breakdown", "dependency map", "acceptance criteria", "user action list"],
-    "toolsRequired": ["Codex", "Markdown files"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "custom Python agents"],
+    "bestFor": [
+      "multi-agent development",
+      "content production planning",
+      "repeatable operations"
+    ],
+    "notFor": [
+      "tiny one-step tasks",
+      "urgent manual fixes with no planning value"
+    ],
+    "inputs": [
+      "user goal",
+      "blueprint",
+      "constraints",
+      "available files"
+    ],
+    "outputs": [
+      "task breakdown",
+      "dependency map",
+      "acceptance criteria",
+      "user action list"
+    ],
+    "toolsRequired": [
+      "Codex",
+      "Markdown files"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "custom Python agents"
+    ],
     "setupDifficulty": "easy",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -46,15 +78,36 @@
     ],
     "examplePrompt": "Convert this blueprint into executable task files with dependencies, acceptance criteria, testing requirements, and QA requirements.",
     "exampleOutput": "TASK-001: Create data schema; TASK-002: Create seed content; dependency-map.md; blockers.md",
-    "failureModes": ["Over-planning simple work", "Creating tasks without acceptance criteria", "Skipping user-only blockers"],
-    "whyUseThis": ["It reduces context loss", "It makes agent work auditable", "It keeps one-person projects moving without constant interruption"],
-    "whenNotToUse": ["When the task is obvious and reversible", "When the user only needs a short answer"],
+    "failureModes": [
+      "Over-planning simple work",
+      "Creating tasks without acceptance criteria",
+      "Skipping user-only blockers"
+    ],
+    "whyUseThis": [
+      "It reduces context loss",
+      "It makes agent work auditable",
+      "It keeps one-person projects moving without constant interruption"
+    ],
+    "whenNotToUse": [
+      "When the task is obvious and reversible",
+      "When the user only needs a short answer"
+    ],
     "cheaperAlternative": "A manual checklist in a markdown file.",
     "saferAlternative": "Require Chat Agent review before any task moves to implementation.",
-    "alternatives": ["Manual project planning", "Kanban board", "Linear issue template"],
-    "relatedAgents": ["AI Task Planning Agent"],
-    "relatedWorkflows": ["Multi-Agent Development Command Center"],
-    "relatedTemplates": ["Task Planning Agent SOUL.md"],
+    "alternatives": [
+      "Manual project planning",
+      "Kanban board",
+      "Linear issue template"
+    ],
+    "relatedAgents": [
+      "AI Task Planning Agent"
+    ],
+    "relatedWorkflows": [
+      "Multi-Agent Development Command Center"
+    ],
+    "relatedTemplates": [
+      "Task Planning Agent SOUL.md"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI task planning agent",
     "searchIntent": "implementation",
@@ -69,15 +122,47 @@
     "shortDescription": "Collect verified research into structured findings, assumptions, recommendations, and sources.",
     "longDescription": "A research skill for turning scattered tool, competitor, or market information into evidence-backed notes that can feed content and product decisions.",
     "businessFunction": "Research",
-    "capabilityCategory": ["Research", "Data Extraction", "Summarization"],
-    "runtimeCategory": ["Browser Automation", "API Agents", "Cloud Agents"],
+    "capabilityCategory": [
+      "Research",
+      "Data Extraction",
+      "Summarization"
+    ],
+    "runtimeCategory": [
+      "Browser Automation",
+      "API Agents",
+      "Cloud Agents"
+    ],
     "problemSolved": "Solo operators need research, but raw search results are noisy and easy to forget.",
-    "bestFor": ["affiliate target research", "competitor comparison", "tool evaluation"],
-    "notFor": ["legal advice", "financial advice", "medical research"],
-    "inputs": ["research question", "trusted sources", "evaluation criteria"],
-    "outputs": ["verified findings", "assumptions", "source list", "recommendations"],
-    "toolsRequired": ["browser", "spreadsheet or markdown storage"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "custom Python agents"],
+    "bestFor": [
+      "affiliate target research",
+      "competitor comparison",
+      "tool evaluation"
+    ],
+    "notFor": [
+      "legal advice",
+      "financial advice",
+      "medical research"
+    ],
+    "inputs": [
+      "research question",
+      "trusted sources",
+      "evaluation criteria"
+    ],
+    "outputs": [
+      "verified findings",
+      "assumptions",
+      "source list",
+      "recommendations"
+    ],
+    "toolsRequired": [
+      "browser",
+      "spreadsheet or markdown storage"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -109,15 +194,36 @@
     ],
     "examplePrompt": "Research affiliate programs for automation tools and separate verified facts from assumptions.",
     "exampleOutput": "Verified: tool has public partner program. Assumption: conversion potential is high for comparison pages.",
-    "failureModes": ["Mixing assumptions with facts", "Using stale pages", "Publishing unsupported claims"],
-    "whyUseThis": ["It improves content credibility", "It supports commercial comparison pages", "It prevents fake claims"],
-    "whenNotToUse": ["When research requires paid/private access you do not have", "When a source cannot be verified"],
+    "failureModes": [
+      "Mixing assumptions with facts",
+      "Using stale pages",
+      "Publishing unsupported claims"
+    ],
+    "whyUseThis": [
+      "It improves content credibility",
+      "It supports commercial comparison pages",
+      "It prevents fake claims"
+    ],
+    "whenNotToUse": [
+      "When research requires paid/private access you do not have",
+      "When a source cannot be verified"
+    ],
     "cheaperAlternative": "Manual source spreadsheet.",
     "saferAlternative": "Require source links for every claim used in public copy.",
-    "alternatives": ["Manual web research", "Research spreadsheet", "Notebook workflow"],
-    "relatedAgents": ["AI Research Agent"],
-    "relatedWorkflows": ["AI Affiliate Operations Workflow"],
-    "relatedTemplates": ["Research Result Template"],
+    "alternatives": [
+      "Manual web research",
+      "Research spreadsheet",
+      "Notebook workflow"
+    ],
+    "relatedAgents": [
+      "AI Research Agent"
+    ],
+    "relatedWorkflows": [
+      "AI Affiliate Operations Workflow"
+    ],
+    "relatedTemplates": [
+      "Research Result Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI research agent",
     "searchIntent": "implementation",
@@ -132,15 +238,46 @@
     "shortDescription": "Draft practical content that explains decisions, workflows, and implementation steps.",
     "longDescription": "A writing skill focused on useful SEO content for solo operators, including decision blocks, alternatives, FAQs, and disclosure-aware monetization sections.",
     "businessFunction": "Content",
-    "capabilityCategory": ["Writing", "Summarization"],
-    "runtimeCategory": ["Codex / IDE Agents", "Cloud Agents"],
+    "capabilityCategory": [
+      "Writing",
+      "Summarization"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Cloud Agents"
+    ],
     "problemSolved": "Solo founders need publishing velocity without turning pages into shallow AI filler.",
-    "bestFor": ["comparison drafts", "workflow pages", "FAQ sections"],
-    "notFor": ["unsupported product reviews", "fake case studies", "regulated advice"],
-    "inputs": ["outline", "research notes", "target keyword", "brand rules"],
-    "outputs": ["draft copy", "FAQ", "CTA blocks", "disclosure notes"],
-    "toolsRequired": ["editor", "content schema"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "LLM writing agents"],
+    "bestFor": [
+      "comparison drafts",
+      "workflow pages",
+      "FAQ sections"
+    ],
+    "notFor": [
+      "unsupported product reviews",
+      "fake case studies",
+      "regulated advice"
+    ],
+    "inputs": [
+      "outline",
+      "research notes",
+      "target keyword",
+      "brand rules"
+    ],
+    "outputs": [
+      "draft copy",
+      "FAQ",
+      "CTA blocks",
+      "disclosure notes"
+    ],
+    "toolsRequired": [
+      "editor",
+      "content schema"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "LLM writing agents"
+    ],
     "setupDifficulty": "easy",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -172,15 +309,36 @@
     ],
     "examplePrompt": "Draft a comparison outline with winner, best-for blocks, cheaper option, safest option, and FAQ.",
     "exampleOutput": "A structured comparison draft that avoids claims not supported by source notes.",
-    "failureModes": ["Thin content", "Generic descriptions", "Unsupported claims", "Missing disclosure"],
-    "whyUseThis": ["It turns research into publishable assets", "It supports weekly SEO cadence", "It helps maintain consistent page structure"],
-    "whenNotToUse": ["When no research exists", "When the page needs firsthand testing that has not happened"],
+    "failureModes": [
+      "Thin content",
+      "Generic descriptions",
+      "Unsupported claims",
+      "Missing disclosure"
+    ],
+    "whyUseThis": [
+      "It turns research into publishable assets",
+      "It supports weekly SEO cadence",
+      "It helps maintain consistent page structure"
+    ],
+    "whenNotToUse": [
+      "When no research exists",
+      "When the page needs firsthand testing that has not happened"
+    ],
     "cheaperAlternative": "Manual drafting from templates.",
     "saferAlternative": "Require QA to reject unsupported claims.",
-    "alternatives": ["Manual copywriting", "Content brief template"],
-    "relatedAgents": ["AI Writer Agent"],
-    "relatedWorkflows": ["AI-Powered Content Production Workflow"],
-    "relatedTemplates": ["Writing Result Template"],
+    "alternatives": [
+      "Manual copywriting",
+      "Content brief template"
+    ],
+    "relatedAgents": [
+      "AI Writer Agent"
+    ],
+    "relatedWorkflows": [
+      "AI-Powered Content Production Workflow"
+    ],
+    "relatedTemplates": [
+      "Writing Result Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI writer agent",
     "searchIntent": "implementation",
@@ -195,15 +353,45 @@
     "shortDescription": "Check content or implementation against requirements, blueprint, SEO, safety, and monetization rules.",
     "longDescription": "A QA skill for catching thin content, unsupported claims, missing disclosure, missing progress updates, and blueprint drift before a task is accepted.",
     "businessFunction": "Operations",
-    "capabilityCategory": ["QA Review", "Decision Support"],
-    "runtimeCategory": ["Codex / IDE Agents", "Local Agents"],
+    "capabilityCategory": [
+      "QA Review",
+      "Decision Support"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo projects often ship work without a second reviewer.",
-    "bestFor": ["content QA", "implementation acceptance", "blueprint alignment"],
-    "notFor": ["legal compliance certification", "security audits requiring specialists"],
-    "inputs": ["task file", "result file", "testing result", "blueprint"],
-    "outputs": ["QA pass/fail", "issues", "required fixes", "recommendation"],
-    "toolsRequired": ["Markdown files", "project files"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "custom QA agents"],
+    "bestFor": [
+      "content QA",
+      "implementation acceptance",
+      "blueprint alignment"
+    ],
+    "notFor": [
+      "legal compliance certification",
+      "security audits requiring specialists"
+    ],
+    "inputs": [
+      "task file",
+      "result file",
+      "testing result",
+      "blueprint"
+    ],
+    "outputs": [
+      "QA pass/fail",
+      "issues",
+      "required fixes",
+      "recommendation"
+    ],
+    "toolsRequired": [
+      "Markdown files",
+      "project files"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "custom QA agents"
+    ],
     "setupDifficulty": "easy",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -235,15 +423,35 @@
     ],
     "examplePrompt": "Review this task result for blueprint alignment, SEO completeness, disclosure, progress update requirement, and unsupported claims.",
     "exampleOutput": "PASS with notes, or FAIL with required fixes.",
-    "failureModes": ["Rubber-stamping", "Ignoring missing test evidence", "Checking style instead of acceptance criteria"],
-    "whyUseThis": ["It creates a quality gate", "It keeps monetized content honest", "It protects project direction"],
-    "whenNotToUse": ["When there is no task definition", "When specialized legal/security review is required"],
+    "failureModes": [
+      "Rubber-stamping",
+      "Ignoring missing test evidence",
+      "Checking style instead of acceptance criteria"
+    ],
+    "whyUseThis": [
+      "It creates a quality gate",
+      "It keeps monetized content honest",
+      "It protects project direction"
+    ],
+    "whenNotToUse": [
+      "When there is no task definition",
+      "When specialized legal/security review is required"
+    ],
     "cheaperAlternative": "Manual checklist review.",
     "saferAlternative": "Require both test result and QA result before DONE.",
-    "alternatives": ["Manual QA checklist", "Peer review"],
-    "relatedAgents": ["AI QA Agent"],
-    "relatedWorkflows": ["Multi-Agent Development Command Center"],
-    "relatedTemplates": ["QA Checklist"],
+    "alternatives": [
+      "Manual QA checklist",
+      "Peer review"
+    ],
+    "relatedAgents": [
+      "AI QA Agent"
+    ],
+    "relatedWorkflows": [
+      "Multi-Agent Development Command Center"
+    ],
+    "relatedTemplates": [
+      "QA Checklist"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI QA agent",
     "searchIntent": "implementation",
@@ -258,15 +466,45 @@
     "shortDescription": "Run project checks and record command evidence before work moves to QA.",
     "longDescription": "A testing skill for type checks, builds, route checks, sitemap checks, and structured test reporting in a file-driven agent workflow.",
     "businessFunction": "Engineering",
-    "capabilityCategory": ["QA Review", "Monitoring", "Reporting"],
-    "runtimeCategory": ["Codex / IDE Agents", "Local Agents"],
+    "capabilityCategory": [
+      "QA Review",
+      "Monitoring",
+      "Reporting"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo builders need repeatable verification instead of relying on vibes before shipping.",
-    "bestFor": ["Next.js build checks", "route smoke tests", "content validation"],
-    "notFor": ["penetration testing", "formal compliance testing"],
-    "inputs": ["task file", "changed files", "package scripts"],
-    "outputs": ["commands run", "pass/fail result", "error logs", "recommendation"],
-    "toolsRequired": ["npm", "TypeScript", "Next.js"],
-    "compatiblePlatforms": ["Codex", "local terminal"],
+    "bestFor": [
+      "Next.js build checks",
+      "route smoke tests",
+      "content validation"
+    ],
+    "notFor": [
+      "penetration testing",
+      "formal compliance testing"
+    ],
+    "inputs": [
+      "task file",
+      "changed files",
+      "package scripts"
+    ],
+    "outputs": [
+      "commands run",
+      "pass/fail result",
+      "error logs",
+      "recommendation"
+    ],
+    "toolsRequired": [
+      "npm",
+      "TypeScript",
+      "Next.js"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "local terminal"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -298,15 +536,34 @@
     ],
     "examplePrompt": "Run typecheck and build for this task, then write a testing.md result with commands and status.",
     "exampleOutput": "npm run typecheck PASS; npm run build PASS; route smoke check pending.",
-    "failureModes": ["Skipping failed commands", "Modifying code during testing", "Not recording exact commands"],
-    "whyUseThis": ["It creates evidence", "It reduces regressions", "It separates implementation from validation"],
-    "whenNotToUse": ["When no runnable checks exist and manual inspection is enough"],
+    "failureModes": [
+      "Skipping failed commands",
+      "Modifying code during testing",
+      "Not recording exact commands"
+    ],
+    "whyUseThis": [
+      "It creates evidence",
+      "It reduces regressions",
+      "It separates implementation from validation"
+    ],
+    "whenNotToUse": [
+      "When no runnable checks exist and manual inspection is enough"
+    ],
     "cheaperAlternative": "Manual terminal commands.",
     "saferAlternative": "Testing agent cannot modify code or deploy.",
-    "alternatives": ["CI workflow", "Manual smoke testing"],
-    "relatedAgents": ["AI Testing Agent"],
-    "relatedWorkflows": ["Multi-Agent Development Command Center"],
-    "relatedTemplates": ["Testing Result Template"],
+    "alternatives": [
+      "CI workflow",
+      "Manual smoke testing"
+    ],
+    "relatedAgents": [
+      "AI Testing Agent"
+    ],
+    "relatedWorkflows": [
+      "Multi-Agent Development Command Center"
+    ],
+    "relatedTemplates": [
+      "Testing Result Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI testing agent",
     "searchIntent": "implementation",
@@ -321,15 +578,46 @@
     "shortDescription": "Draft support replies from customer messages, policy notes, and account context.",
     "longDescription": "A customer support skill for solo founders who need fast, consistent replies while keeping sensitive or refund-related decisions under human approval.",
     "businessFunction": "Customer Support",
-    "capabilityCategory": ["Writing", "Summarization", "Decision Support"],
-    "runtimeCategory": ["Messaging Agents", "API Agents", "Cloud Agents"],
+    "capabilityCategory": [
+      "Writing",
+      "Summarization",
+      "Decision Support"
+    ],
+    "runtimeCategory": [
+      "Messaging Agents",
+      "API Agents",
+      "Cloud Agents"
+    ],
     "problemSolved": "Support messages interrupt deep work, but fully automated replies can create trust and policy problems.",
-    "bestFor": ["drafting replies", "summarizing tickets", "routing support issues"],
-    "notFor": ["unapproved refunds", "legal disputes", "angry enterprise escalations"],
-    "inputs": ["customer message", "policy notes", "order or account summary"],
-    "outputs": ["draft reply", "tone note", "approval flag"],
-    "toolsRequired": ["support inbox", "knowledge base"],
-    "compatiblePlatforms": ["Help desk tools", "email", "OpenClaw"],
+    "bestFor": [
+      "drafting replies",
+      "summarizing tickets",
+      "routing support issues"
+    ],
+    "notFor": [
+      "unapproved refunds",
+      "legal disputes",
+      "angry enterprise escalations"
+    ],
+    "inputs": [
+      "customer message",
+      "policy notes",
+      "order or account summary"
+    ],
+    "outputs": [
+      "draft reply",
+      "tone note",
+      "approval flag"
+    ],
+    "toolsRequired": [
+      "support inbox",
+      "knowledge base"
+    ],
+    "compatiblePlatforms": [
+      "Help desk tools",
+      "email",
+      "OpenClaw"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -361,15 +649,35 @@
     ],
     "examplePrompt": "Draft a calm support reply using this policy. Do not promise refunds or account changes.",
     "exampleOutput": "A draft reply with an approval-required flag.",
-    "failureModes": ["Sending without approval", "Leaking private data", "Making promises outside policy"],
-    "whyUseThis": ["It saves response time", "It standardizes support tone", "It keeps the founder in control of risky decisions"],
-    "whenNotToUse": ["When support volume is tiny", "When messages involve legal, payment, or safety issues"],
+    "failureModes": [
+      "Sending without approval",
+      "Leaking private data",
+      "Making promises outside policy"
+    ],
+    "whyUseThis": [
+      "It saves response time",
+      "It standardizes support tone",
+      "It keeps the founder in control of risky decisions"
+    ],
+    "whenNotToUse": [
+      "When support volume is tiny",
+      "When messages involve legal, payment, or safety issues"
+    ],
     "cheaperAlternative": "Saved reply templates.",
     "saferAlternative": "Draft-only support assistant.",
-    "alternatives": ["Help desk macros", "Manual support SOP"],
-    "relatedAgents": ["AI Customer Support Agent"],
-    "relatedWorkflows": ["AI Customer Support Workflow"],
-    "relatedTemplates": ["Support Reply Prompt"],
+    "alternatives": [
+      "Help desk macros",
+      "Manual support SOP"
+    ],
+    "relatedAgents": [
+      "AI Customer Support Agent"
+    ],
+    "relatedWorkflows": [
+      "AI Customer Support Workflow"
+    ],
+    "relatedTemplates": [
+      "Support Reply Prompt"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI customer support agent",
     "searchIntent": "commercial",
@@ -384,15 +692,45 @@
     "shortDescription": "Research target accounts and summarize why each lead may be relevant.",
     "longDescription": "A sales research skill for solo operators who need structured lead notes before outreach without spending hours browsing company pages manually.",
     "businessFunction": "Sales",
-    "capabilityCategory": ["Research", "Data Extraction", "Reporting"],
-    "runtimeCategory": ["Browser Automation", "API Agents"],
+    "capabilityCategory": [
+      "Research",
+      "Data Extraction",
+      "Reporting"
+    ],
+    "runtimeCategory": [
+      "Browser Automation",
+      "API Agents"
+    ],
     "problemSolved": "Manual lead research is slow, but outreach without context performs poorly.",
-    "bestFor": ["B2B outreach", "sponsor prospecting", "affiliate partner research"],
-    "notFor": ["scraping private data", "spam campaigns", "regulated prospecting"],
-    "inputs": ["target list", "qualification criteria", "public sources"],
-    "outputs": ["lead summary", "fit reason", "outreach angle"],
-    "toolsRequired": ["browser", "CRM or spreadsheet"],
-    "compatiblePlatforms": ["Codex", "browser agents", "custom Python agents"],
+    "bestFor": [
+      "B2B outreach",
+      "sponsor prospecting",
+      "affiliate partner research"
+    ],
+    "notFor": [
+      "scraping private data",
+      "spam campaigns",
+      "regulated prospecting"
+    ],
+    "inputs": [
+      "target list",
+      "qualification criteria",
+      "public sources"
+    ],
+    "outputs": [
+      "lead summary",
+      "fit reason",
+      "outreach angle"
+    ],
+    "toolsRequired": [
+      "browser",
+      "CRM or spreadsheet"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "browser agents",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -424,15 +762,35 @@
     ],
     "examplePrompt": "Research this company and summarize whether it fits our sponsor target profile. Use only public information.",
     "exampleOutput": "Company summary, relevance reason, possible outreach angle, source URLs.",
-    "failureModes": ["Using outdated information", "Overstating fit", "Scraping data against terms"],
-    "whyUseThis": ["It supports sponsor and affiliate growth", "It creates better outreach context", "It reduces manual research time"],
-    "whenNotToUse": ["When you cannot verify sources", "When outreach would violate platform rules"],
+    "failureModes": [
+      "Using outdated information",
+      "Overstating fit",
+      "Scraping data against terms"
+    ],
+    "whyUseThis": [
+      "It supports sponsor and affiliate growth",
+      "It creates better outreach context",
+      "It reduces manual research time"
+    ],
+    "whenNotToUse": [
+      "When you cannot verify sources",
+      "When outreach would violate platform rules"
+    ],
     "cheaperAlternative": "Manual spreadsheet research.",
     "saferAlternative": "Public-source-only research with manual approval.",
-    "alternatives": ["CRM enrichment tools", "Manual web research"],
-    "relatedAgents": ["AI Sales Research Agent"],
-    "relatedWorkflows": ["AI Affiliate Operations Workflow"],
-    "relatedTemplates": ["Lead Research Checklist"],
+    "alternatives": [
+      "CRM enrichment tools",
+      "Manual web research"
+    ],
+    "relatedAgents": [
+      "AI Sales Research Agent"
+    ],
+    "relatedWorkflows": [
+      "AI Affiliate Operations Workflow"
+    ],
+    "relatedTemplates": [
+      "Lead Research Checklist"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI lead research agent",
     "searchIntent": "commercial",
@@ -447,15 +805,46 @@
     "shortDescription": "Turn a target keyword into a structured page brief with intent, sections, FAQ, and internal links.",
     "longDescription": "An SEO planning skill for creating page briefs that connect keyword intent, decision guidance, internal links, and monetization opportunities.",
     "businessFunction": "SEO",
-    "capabilityCategory": ["Planning", "Writing", "Decision Support"],
-    "runtimeCategory": ["Codex / IDE Agents", "Cloud Agents"],
+    "capabilityCategory": [
+      "Planning",
+      "Writing",
+      "Decision Support"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Cloud Agents"
+    ],
     "problemSolved": "Publishing without search intent creates content that may be useful but hard to discover.",
-    "bestFor": ["comparison pages", "workflow pages", "playbooks"],
-    "notFor": ["keyword stuffing", "thin content generation"],
-    "inputs": ["target keyword", "audience", "related pages", "commercial intent"],
-    "outputs": ["SEO brief", "section outline", "FAQ", "internal link plan"],
-    "toolsRequired": ["keyword notes", "content schema"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "LLM agents"],
+    "bestFor": [
+      "comparison pages",
+      "workflow pages",
+      "playbooks"
+    ],
+    "notFor": [
+      "keyword stuffing",
+      "thin content generation"
+    ],
+    "inputs": [
+      "target keyword",
+      "audience",
+      "related pages",
+      "commercial intent"
+    ],
+    "outputs": [
+      "SEO brief",
+      "section outline",
+      "FAQ",
+      "internal link plan"
+    ],
+    "toolsRequired": [
+      "keyword notes",
+      "content schema"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "LLM agents"
+    ],
     "setupDifficulty": "easy",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -487,15 +876,34 @@
     ],
     "examplePrompt": "Create an SEO brief for 'OpenClaw vs Zapier' with decision blocks and internal links.",
     "exampleOutput": "Brief with search intent, H2 sections, FAQ, related content, and CTA ideas.",
-    "failureModes": ["Ignoring search intent", "Missing internal links", "Creating generic sections"],
-    "whyUseThis": ["It aligns content with traffic", "It prevents shallow pages", "It supports conversion paths"],
-    "whenNotToUse": ["When the page is private or not meant to rank"],
+    "failureModes": [
+      "Ignoring search intent",
+      "Missing internal links",
+      "Creating generic sections"
+    ],
+    "whyUseThis": [
+      "It aligns content with traffic",
+      "It prevents shallow pages",
+      "It supports conversion paths"
+    ],
+    "whenNotToUse": [
+      "When the page is private or not meant to rank"
+    ],
     "cheaperAlternative": "Manual SEO outline.",
     "saferAlternative": "Require brief approval before drafting public pages.",
-    "alternatives": ["Keyword spreadsheet", "Manual content brief"],
-    "relatedAgents": ["AI Content Operations Agent"],
-    "relatedWorkflows": ["AI-Powered Content Production Workflow"],
-    "relatedTemplates": ["SEO Brief Template"],
+    "alternatives": [
+      "Keyword spreadsheet",
+      "Manual content brief"
+    ],
+    "relatedAgents": [
+      "AI Content Operations Agent"
+    ],
+    "relatedWorkflows": [
+      "AI-Powered Content Production Workflow"
+    ],
+    "relatedTemplates": [
+      "SEO Brief Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI SEO agent",
     "searchIntent": "commercial",
@@ -510,15 +918,45 @@
     "shortDescription": "Track affiliate targets, approval status, URLs, and pages where each tool should appear.",
     "longDescription": "An affiliate operations skill for keeping monetization work visible without inventing approvals or scattering links across pages.",
     "businessFunction": "Affiliate Operations",
-    "capabilityCategory": ["Reporting", "Monitoring", "Workflow Automation"],
-    "runtimeCategory": ["Local Agents", "API Agents"],
+    "capabilityCategory": [
+      "Reporting",
+      "Monitoring",
+      "Workflow Automation"
+    ],
+    "runtimeCategory": [
+      "Local Agents",
+      "API Agents"
+    ],
     "problemSolved": "Affiliate-first sites need a source of truth for programs, statuses, links, and disclosure requirements.",
-    "bestFor": ["affiliate target lists", "comparison CTA planning", "sponsor readiness"],
-    "notFor": ["fake reviews", "unapproved affiliate claims", "financial reporting without source data"],
-    "inputs": ["tool list", "program status", "target pages", "approved URLs"],
-    "outputs": ["affiliate target table", "status report", "missing actions"],
-    "toolsRequired": ["spreadsheet or JSON source", "content database"],
-    "compatiblePlatforms": ["Codex", "custom Python agents"],
+    "bestFor": [
+      "affiliate target lists",
+      "comparison CTA planning",
+      "sponsor readiness"
+    ],
+    "notFor": [
+      "fake reviews",
+      "unapproved affiliate claims",
+      "financial reporting without source data"
+    ],
+    "inputs": [
+      "tool list",
+      "program status",
+      "target pages",
+      "approved URLs"
+    ],
+    "outputs": [
+      "affiliate target table",
+      "status report",
+      "missing actions"
+    ],
+    "toolsRequired": [
+      "spreadsheet or JSON source",
+      "content database"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -530,7 +968,7 @@
     "credentialRequirement": "Partner dashboards may require credentials, but local tracking can start without them.",
     "humanApprovalBoundary": "Human must verify program approvals and paste official URLs.",
     "safeTestModeRecommendation": "Use placeholder status values and never label unapproved links as affiliate links.",
-    "opcFitScore": 8.0,
+    "opcFitScore": 8,
     "scoreBreakdown": {
       "businessImpact": 9,
       "setupSimplicity": 6,
@@ -550,15 +988,35 @@
     ],
     "examplePrompt": "Audit affiliate target status and list which comparison pages need approved URLs.",
     "exampleOutput": "Tool, status, target page, next action, disclosure requirement.",
-    "failureModes": ["Inventing approval status", "Using broken links", "Missing disclosure"],
-    "whyUseThis": ["It keeps monetization organized", "It supports commercial SEO pages", "It prevents fake affiliate claims"],
-    "whenNotToUse": ["When the site has no monetization plan", "When all links are intentionally non-commercial"],
+    "failureModes": [
+      "Inventing approval status",
+      "Using broken links",
+      "Missing disclosure"
+    ],
+    "whyUseThis": [
+      "It keeps monetization organized",
+      "It supports commercial SEO pages",
+      "It prevents fake affiliate claims"
+    ],
+    "whenNotToUse": [
+      "When the site has no monetization plan",
+      "When all links are intentionally non-commercial"
+    ],
     "cheaperAlternative": "Manual affiliate spreadsheet.",
     "saferAlternative": "Require a status field before any CTA appears.",
-    "alternatives": ["Spreadsheet tracker", "CRM pipeline"],
-    "relatedAgents": ["AI Affiliate Operations Agent"],
-    "relatedWorkflows": ["AI Affiliate Operations Workflow"],
-    "relatedTemplates": ["Affiliate Target Tracker"],
+    "alternatives": [
+      "Spreadsheet tracker",
+      "CRM pipeline"
+    ],
+    "relatedAgents": [
+      "AI Affiliate Operations Agent"
+    ],
+    "relatedWorkflows": [
+      "AI Affiliate Operations Workflow"
+    ],
+    "relatedTemplates": [
+      "Affiliate Target Tracker"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI affiliate tracking agent",
     "searchIntent": "commercial",
@@ -573,15 +1031,46 @@
     "shortDescription": "Check key production routes, sitemap, robots, and visible page content after deployment.",
     "longDescription": "A deployment validation skill for solo builders who need a repeatable post-deploy check before submitting pages to search engines.",
     "businessFunction": "Engineering",
-    "capabilityCategory": ["Monitoring", "QA Review", "Reporting"],
-    "runtimeCategory": ["Browser Automation", "API Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Monitoring",
+      "QA Review",
+      "Reporting"
+    ],
+    "runtimeCategory": [
+      "Browser Automation",
+      "API Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Production can break differently from local builds, especially SEO routes and static assets.",
-    "bestFor": ["post-deploy checks", "SEO route validation", "launch readiness"],
-    "notFor": ["deep performance testing", "full security audits"],
-    "inputs": ["production URL", "route list", "expected status codes"],
-    "outputs": ["route status report", "SEO route results", "launch recommendation"],
-    "toolsRequired": ["browser", "HTTP checker", "deployment URL"],
-    "compatiblePlatforms": ["Vercel", "Netlify", "custom hosting"],
+    "bestFor": [
+      "post-deploy checks",
+      "SEO route validation",
+      "launch readiness"
+    ],
+    "notFor": [
+      "deep performance testing",
+      "full security audits"
+    ],
+    "inputs": [
+      "production URL",
+      "route list",
+      "expected status codes"
+    ],
+    "outputs": [
+      "route status report",
+      "SEO route results",
+      "launch recommendation"
+    ],
+    "toolsRequired": [
+      "browser",
+      "HTTP checker",
+      "deployment URL"
+    ],
+    "compatiblePlatforms": [
+      "Vercel",
+      "Netlify",
+      "custom hosting"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -613,15 +1102,34 @@
     ],
     "examplePrompt": "Check these production routes and report status, title, meta description, and sitemap availability.",
     "exampleOutput": "/skills 200 OK; /sitemap.xml 200 OK; robots.txt allows expected pages.",
-    "failureModes": ["Checking only homepage", "Ignoring robots.txt", "Submitting sitemap before routes are stable"],
-    "whyUseThis": ["It catches launch mistakes", "It supports Search Console setup", "It creates evidence before public indexing"],
-    "whenNotToUse": ["Before a deploy URL exists"],
+    "failureModes": [
+      "Checking only homepage",
+      "Ignoring robots.txt",
+      "Submitting sitemap before routes are stable"
+    ],
+    "whyUseThis": [
+      "It catches launch mistakes",
+      "It supports Search Console setup",
+      "It creates evidence before public indexing"
+    ],
+    "whenNotToUse": [
+      "Before a deploy URL exists"
+    ],
     "cheaperAlternative": "Manual route checklist.",
     "saferAlternative": "Require preview route checks before production.",
-    "alternatives": ["CI smoke tests", "Manual browser QA"],
-    "relatedAgents": ["AI Deployment Agent"],
-    "relatedWorkflows": ["AI Website Health Monitoring Workflow"],
-    "relatedTemplates": ["Deployment Smoke Test Checklist"],
+    "alternatives": [
+      "CI smoke tests",
+      "Manual browser QA"
+    ],
+    "relatedAgents": [
+      "AI Deployment Agent"
+    ],
+    "relatedWorkflows": [
+      "AI Website Health Monitoring Workflow"
+    ],
+    "relatedTemplates": [
+      "Deployment Smoke Test Checklist"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI deployment smoke test",
     "searchIntent": "implementation",
@@ -636,15 +1144,46 @@
     "shortDescription": "Keep project decisions, assumptions, progress, tasks, and results in durable files.",
     "longDescription": "A memory skill for reducing context loss in agent-driven work by storing decisions, constraints, progress, task files, and result evidence in a command-center folder.",
     "businessFunction": "Operations",
-    "capabilityCategory": ["Planning", "Reporting", "Workflow Automation"],
-    "runtimeCategory": ["Codex / IDE Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Planning",
+      "Reporting",
+      "Workflow Automation"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Local Agents"
+    ],
     "problemSolved": "AI work often loses continuity when decisions live only in chat.",
-    "bestFor": ["multi-agent projects", "long-running content sites", "repeatable development workflows"],
-    "notFor": ["one-off prompts", "projects that already have mature issue tracking and documentation"],
-    "inputs": ["blueprint", "decisions", "task status", "results"],
-    "outputs": ["progress file", "task center", "context files", "collection summaries"],
-    "toolsRequired": ["filesystem", "Markdown"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "local agents"],
+    "bestFor": [
+      "multi-agent projects",
+      "long-running content sites",
+      "repeatable development workflows"
+    ],
+    "notFor": [
+      "one-off prompts",
+      "projects that already have mature issue tracking and documentation"
+    ],
+    "inputs": [
+      "blueprint",
+      "decisions",
+      "task status",
+      "results"
+    ],
+    "outputs": [
+      "progress file",
+      "task center",
+      "context files",
+      "collection summaries"
+    ],
+    "toolsRequired": [
+      "filesystem",
+      "Markdown"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "local agents"
+    ],
     "setupDifficulty": "easy",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -656,7 +1195,7 @@
     "credentialRequirement": "None.",
     "humanApprovalBoundary": "Chat Agent controls master files and final acceptance.",
     "safeTestModeRecommendation": "Start with non-secret project notes only.",
-    "opcFitScore": 9.0,
+    "opcFitScore": 9,
     "scoreBreakdown": {
       "businessImpact": 9,
       "setupSimplicity": 9,
@@ -676,15 +1215,35 @@
     ],
     "examplePrompt": "Update project progress after this task and record what changed, what is still not done, and the next recommended steps.",
     "exampleOutput": "Snapshot, completed work, not done yet, latest progress log.",
-    "failureModes": ["Forgetting to update progress", "Putting secrets in memory files", "Letting subagents edit master control files"],
-    "whyUseThis": ["It preserves context", "It makes progress visible", "It turns chat work into an operating system"],
-    "whenNotToUse": ["When the project is too small for persistent coordination"],
+    "failureModes": [
+      "Forgetting to update progress",
+      "Putting secrets in memory files",
+      "Letting subagents edit master control files"
+    ],
+    "whyUseThis": [
+      "It preserves context",
+      "It makes progress visible",
+      "It turns chat work into an operating system"
+    ],
+    "whenNotToUse": [
+      "When the project is too small for persistent coordination"
+    ],
     "cheaperAlternative": "Single README checklist.",
     "saferAlternative": "Keep secrets out and restrict master file edits to the Chat Agent.",
-    "alternatives": ["Issue tracker", "Project wiki", "Notion workspace"],
-    "relatedAgents": ["AI Task Planning Agent"],
-    "relatedWorkflows": ["Multi-Agent Development Command Center"],
-    "relatedTemplates": ["Command Center Folder Template"],
+    "alternatives": [
+      "Issue tracker",
+      "Project wiki",
+      "Notion workspace"
+    ],
+    "relatedAgents": [
+      "AI Task Planning Agent"
+    ],
+    "relatedWorkflows": [
+      "Multi-Agent Development Command Center"
+    ],
+    "relatedTemplates": [
+      "Command Center Folder Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "AI agent command center",
     "searchIntent": "implementation",
@@ -699,15 +1258,48 @@
     "shortDescription": "Plan, schedule, and track content publication across multiple channels and formats.",
     "longDescription": "A content management skill for creating editorial calendars, tracking publication schedules, and ensuring consistent content output across blogs, social media, and email newsletters.",
     "businessFunction": "Marketing",
-    "capabilityCategory": ["Content Planning", "Scheduling", "Workflow Automation"],
-    "runtimeCategory": ["Codex / IDE Agents", "Cloud Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Content Planning",
+      "Scheduling",
+      "Workflow Automation"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Cloud Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo operators struggle to maintain consistent content schedules without dedicated marketing teams.",
-    "bestFor": ["blog publishing", "social media planning", "newsletter scheduling"],
-    "notFor": ["real-time content creation", "crisis communications"],
-    "inputs": ["content goals", "target audience", "publication channels", "content inventory"],
-    "outputs": ["editorial calendar", "publication schedule", "content gap analysis", "performance tracking"],
-    "toolsRequired": ["calendar app", "content management system", "analytics tools"],
-    "compatiblePlatforms": ["Codex", "OpenClaw", "custom Python agents"],
+    "bestFor": [
+      "blog publishing",
+      "social media planning",
+      "newsletter scheduling"
+    ],
+    "notFor": [
+      "real-time content creation",
+      "crisis communications"
+    ],
+    "inputs": [
+      "content goals",
+      "target audience",
+      "publication channels",
+      "content inventory"
+    ],
+    "outputs": [
+      "editorial calendar",
+      "publication schedule",
+      "content gap analysis",
+      "performance tracking"
+    ],
+    "toolsRequired": [
+      "calendar app",
+      "content management system",
+      "analytics tools"
+    ],
+    "compatiblePlatforms": [
+      "Codex",
+      "OpenClaw",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -739,16 +1331,40 @@
     ],
     "examplePrompt": "Create a 3-month content calendar for a SaaS blog focusing on productivity tools.",
     "exampleOutput": "Monthly themes, weekly topics, publication dates, and content types with assigned deadlines.",
-    "failureModes": ["Over-scheduling without content capacity", "Ignoring audience feedback", "Focusing on quantity over quality"],
-    "whyUseThis": ["Maintains content consistency", "Improves SEO through regular publishing", "Tracks content performance"],
-    "whenNotToUse": ["When you have a full marketing team", "For one-off content pieces"],
+    "failureModes": [
+      "Over-scheduling without content capacity",
+      "Ignoring audience feedback",
+      "Focusing on quantity over quality"
+    ],
+    "whyUseThis": [
+      "Maintains content consistency",
+      "Improves SEO through regular publishing",
+      "Tracks content performance"
+    ],
+    "whenNotToUse": [
+      "When you have a full marketing team",
+      "For one-off content pieces"
+    ],
     "cheaperAlternative": "Google Calendar with manual tracking.",
     "saferAlternative": "Schedule reviews before publication.",
-    "alternatives": ["Content management software", "Social media schedulers", "Editorial calendar templates"],
-    "relatedAgents": ["Content Strategist Agent"],
-    "relatedWorkflows": ["Content Production Workflow"],
-    "relatedTemplates": ["Content Calendar Template"],
-    "affiliateToolSlugs": ["buffer", "hootsuite"],
+    "alternatives": [
+      "Content management software",
+      "Social media schedulers",
+      "Editorial calendar templates"
+    ],
+    "relatedAgents": [
+      "Content Strategist Agent"
+    ],
+    "relatedWorkflows": [
+      "Content Production Workflow"
+    ],
+    "relatedTemplates": [
+      "Content Calendar Template"
+    ],
+    "affiliateToolSlugs": [
+      "buffer",
+      "hootsuite"
+    ],
     "targetKeyword": "content calendar management",
     "searchIntent": "implementation",
     "monetizationPriority": "high",
@@ -762,15 +1378,47 @@
     "shortDescription": "Plan, create, and schedule social media content across multiple platforms with optimal timing.",
     "longDescription": "A social media automation skill for developing content strategies, creating platform-specific posts, and scheduling publication for maximum engagement.",
     "businessFunction": "Marketing",
-    "capabilityCategory": ["Social Media", "Content Creation", "Scheduling"],
-    "runtimeCategory": ["Cloud Agents", "API Agents"],
+    "capabilityCategory": [
+      "Social Media",
+      "Content Creation",
+      "Scheduling"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "API Agents"
+    ],
     "problemSolved": "Solo operators can't maintain consistent social media presence without dedicated social teams.",
-    "bestFor": ["brand awareness", "lead generation", "community building"],
-    "notFor": ["crisis management", "real-time customer service"],
-    "inputs": ["brand guidelines", "target audience", "content pillars", "platform algorithms"],
-    "outputs": ["content calendar", "platform-specific posts", "engagement strategy", "performance reports"],
-    "toolsRequired": ["social media APIs", "content creation tools", "analytics platforms"],
-    "compatiblePlatforms": ["Buffer", "Hootsuite", "custom Python agents"],
+    "bestFor": [
+      "brand awareness",
+      "lead generation",
+      "community building"
+    ],
+    "notFor": [
+      "crisis management",
+      "real-time customer service"
+    ],
+    "inputs": [
+      "brand guidelines",
+      "target audience",
+      "content pillars",
+      "platform algorithms"
+    ],
+    "outputs": [
+      "content calendar",
+      "platform-specific posts",
+      "engagement strategy",
+      "performance reports"
+    ],
+    "toolsRequired": [
+      "social media APIs",
+      "content creation tools",
+      "analytics platforms"
+    ],
+    "compatiblePlatforms": [
+      "Buffer",
+      "Hootsuite",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "high",
     "humanApprovalRequired": true,
@@ -802,16 +1450,41 @@
     ],
     "examplePrompt": "Create a weekly social media schedule for a B2B SaaS company on LinkedIn and Twitter.",
     "exampleOutput": "Daily posting schedule with content types, optimal timing, and engagement goals.",
-    "failureModes": ["Posting too frequently", "Ignoring platform algorithms", "Focusing on wrong metrics"],
-    "whyUseThis": ["Maintains social media presence", "Improves audience engagement", "Supports lead generation"],
-    "whenNotToUse": ["When you have a social media manager", "For highly visual or creative content"],
+    "failureModes": [
+      "Posting too frequently",
+      "Ignoring platform algorithms",
+      "Focusing on wrong metrics"
+    ],
+    "whyUseThis": [
+      "Maintains social media presence",
+      "Improves audience engagement",
+      "Supports lead generation"
+    ],
+    "whenNotToUse": [
+      "When you have a social media manager",
+      "For highly visual or creative content"
+    ],
     "cheaperAlternative": "Manual posting with calendar reminders.",
     "saferAlternative": "Use platform scheduling tools with approval workflows.",
-    "alternatives": ["Social media management tools", "Content creation agencies", "Posting checklists"],
-    "relatedAgents": ["Social Media Manager Agent"],
-    "relatedWorkflows": ["Social Media Marketing Workflow"],
-    "relatedTemplates": ["Social Media Content Template"],
-    "affiliateToolSlugs": ["buffer", "hootsuite", "later"],
+    "alternatives": [
+      "Social media management tools",
+      "Content creation agencies",
+      "Posting checklists"
+    ],
+    "relatedAgents": [
+      "Social Media Manager Agent"
+    ],
+    "relatedWorkflows": [
+      "Social Media Marketing Workflow"
+    ],
+    "relatedTemplates": [
+      "Social Media Content Template"
+    ],
+    "affiliateToolSlugs": [
+      "buffer",
+      "hootsuite",
+      "later"
+    ],
     "targetKeyword": "social media scheduling",
     "searchIntent": "implementation",
     "monetizationPriority": "high",
@@ -825,15 +1498,47 @@
     "shortDescription": "Design, execute, and optimize email marketing campaigns for lead nurturing and customer retention.",
     "longDescription": "An email automation skill for creating campaign strategies, writing compelling copy, segmenting audiences, and analyzing performance to improve conversion rates.",
     "businessFunction": "Marketing",
-    "capabilityCategory": ["Email Marketing", "Campaign Management", "Analytics"],
-    "runtimeCategory": ["Cloud Agents", "API Agents"],
+    "capabilityCategory": [
+      "Email Marketing",
+      "Campaign Management",
+      "Analytics"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "API Agents"
+    ],
     "problemSolved": "Solo operators need email marketing but lack the time and expertise for sophisticated campaigns.",
-    "bestFor": ["lead nurturing", "customer retention", "product launches"],
-    "notFor": ["transactional emails", "compliance-heavy industries"],
-    "inputs": ["audience data", "campaign goals", "content strategy", "email platform"],
-    "outputs": ["campaign strategy", "email sequences", "segmentation rules", "performance reports"],
-    "toolsRequired": ["email service provider", "CRM integration", "analytics tools"],
-    "compatiblePlatforms": ["Mailchimp", "ConvertKit", "custom Python agents"],
+    "bestFor": [
+      "lead nurturing",
+      "customer retention",
+      "product launches"
+    ],
+    "notFor": [
+      "transactional emails",
+      "compliance-heavy industries"
+    ],
+    "inputs": [
+      "audience data",
+      "campaign goals",
+      "content strategy",
+      "email platform"
+    ],
+    "outputs": [
+      "campaign strategy",
+      "email sequences",
+      "segmentation rules",
+      "performance reports"
+    ],
+    "toolsRequired": [
+      "email service provider",
+      "CRM integration",
+      "analytics tools"
+    ],
+    "compatiblePlatforms": [
+      "Mailchimp",
+      "ConvertKit",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -865,16 +1570,41 @@
     ],
     "examplePrompt": "Design a lead nurturing campaign for a SaaS trial signups.",
     "exampleOutput": "5-email sequence with welcome, onboarding, feature highlights, and conversion emails.",
-    "failureModes": ["Poor segmentation", "Generic content", "Ignoring unsubscribe rates"],
-    "whyUseThis": ["Improves customer engagement", "Supports lead conversion", "Provides measurable ROI"],
-    "whenNotToUse": ["When you have a marketing team", "For highly regulated industries"],
+    "failureModes": [
+      "Poor segmentation",
+      "Generic content",
+      "Ignoring unsubscribe rates"
+    ],
+    "whyUseThis": [
+      "Improves customer engagement",
+      "Supports lead conversion",
+      "Provides measurable ROI"
+    ],
+    "whenNotToUse": [
+      "When you have a marketing team",
+      "For highly regulated industries"
+    ],
     "cheaperAlternative": "Basic email platform automation.",
     "saferAlternative": "Start with small test campaigns.",
-    "alternatives": ["Email marketing platforms", "Marketing automation tools", "CRM systems"],
-    "relatedAgents": ["Email Marketing Specialist Agent"],
-    "relatedWorkflows": ["Email Marketing Workflow"],
-    "relatedTemplates": ["Email Campaign Template"],
-    "affiliateToolSlugs": ["mailchimp", "convertkit", "mailerlite"],
+    "alternatives": [
+      "Email marketing platforms",
+      "Marketing automation tools",
+      "CRM systems"
+    ],
+    "relatedAgents": [
+      "Email Marketing Specialist Agent"
+    ],
+    "relatedWorkflows": [
+      "Email Marketing Workflow"
+    ],
+    "relatedTemplates": [
+      "Email Campaign Template"
+    ],
+    "affiliateToolSlugs": [
+      "mailchimp",
+      "convertkit",
+      "mailerlite"
+    ],
     "targetKeyword": "email marketing campaigns",
     "searchIntent": "implementation",
     "monetizationPriority": "high",
@@ -888,15 +1618,46 @@
     "shortDescription": "Analyze business data and generate actionable insights with visualizations and recommendations.",
     "longDescription": "A data analysis skill for processing business metrics, creating reports, and providing strategic recommendations to improve performance.",
     "businessFunction": "Analytics",
-    "capabilityCategory": ["Data Analysis", "Reporting", "Business Intelligence"],
-    "runtimeCategory": ["Cloud Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Data Analysis",
+      "Reporting",
+      "Business Intelligence"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo operators collect data but lack time to analyze it for actionable insights.",
-    "bestFor": ["performance tracking", "trend analysis", "decision support"],
-    "notFor": ["real-time monitoring", "complex statistical modeling"],
-    "inputs": ["raw data sources", "analysis objectives", "reporting requirements"],
-    "outputs": ["data visualizations", "trend analysis", "actionable recommendations", "automated reports"],
-    "toolsRequired": ["data analysis tools", "visualization software", "database access"],
-    "compatiblePlatforms": ["Google Analytics", "Mixpanel", "custom Python agents"],
+    "bestFor": [
+      "performance tracking",
+      "trend analysis",
+      "decision support"
+    ],
+    "notFor": [
+      "real-time monitoring",
+      "complex statistical modeling"
+    ],
+    "inputs": [
+      "raw data sources",
+      "analysis objectives",
+      "reporting requirements"
+    ],
+    "outputs": [
+      "data visualizations",
+      "trend analysis",
+      "actionable recommendations",
+      "automated reports"
+    ],
+    "toolsRequired": [
+      "data analysis tools",
+      "visualization software",
+      "database access"
+    ],
+    "compatiblePlatforms": [
+      "Google Analytics",
+      "Mixpanel",
+      "custom Python agents"
+    ],
     "setupDifficulty": "high",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -908,7 +1669,7 @@
     "credentialRequirement": "Access to data sources and analytics platforms.",
     "humanApprovalBoundary": "Report distribution and strategic decisions.",
     "safeTestModeRecommendation": "Use sample data before connecting to live business data.",
-    "opcFitScore": 8.0,
+    "opcFitScore": 8,
     "scoreBreakdown": {
       "businessImpact": 8,
       "setupSimplicity": 6,
@@ -928,16 +1689,41 @@
     ],
     "examplePrompt": "Analyze website traffic data and provide recommendations for improving conversion rates.",
     "exampleOutput": "Traffic analysis report with conversion funnel visualization and optimization recommendations.",
-    "failureModes": ["Analysis paralysis", "Focusing on vanity metrics", "Ignoring data quality issues"],
-    "whyUseThis": ["Provides data-driven insights", "Supports strategic decisions", "Tracks business performance"],
-    "whenNotToUse": ["When you have a data analyst", "For simple manual reporting"],
+    "failureModes": [
+      "Analysis paralysis",
+      "Focusing on vanity metrics",
+      "Ignoring data quality issues"
+    ],
+    "whyUseThis": [
+      "Provides data-driven insights",
+      "Supports strategic decisions",
+      "Tracks business performance"
+    ],
+    "whenNotToUse": [
+      "When you have a data analyst",
+      "For simple manual reporting"
+    ],
     "cheaperAlternative": "Manual spreadsheet analysis.",
     "saferAlternative": "Use aggregated data to protect individual privacy.",
-    "alternatives": ["Business intelligence tools", "Analytics platforms", "Custom dashboards"],
-    "relatedAgents": ["Data Analyst Agent"],
-    "relatedWorkflows": ["Business Intelligence Workflow"],
-    "relatedTemplates": ["Data Analysis Report Template"],
-    "affiliateToolSlugs": ["google-analytics", "mixpanel", "tableau"],
+    "alternatives": [
+      "Business intelligence tools",
+      "Analytics platforms",
+      "Custom dashboards"
+    ],
+    "relatedAgents": [
+      "Data Analyst Agent"
+    ],
+    "relatedWorkflows": [
+      "Business Intelligence Workflow"
+    ],
+    "relatedTemplates": [
+      "Data Analysis Report Template"
+    ],
+    "affiliateToolSlugs": [
+      "google-analytics",
+      "mixpanel",
+      "tableau"
+    ],
     "targetKeyword": "business data analysis",
     "searchIntent": "implementation",
     "monetizationPriority": "medium",
@@ -951,15 +1737,46 @@
     "shortDescription": "Collect, analyze, and categorize customer feedback to identify trends and improvement opportunities.",
     "longDescription": "A customer insights skill for processing feedback from multiple sources, identifying patterns, and generating actionable recommendations for product and service improvements.",
     "businessFunction": "Customer Success",
-    "capabilityCategory": ["Feedback Analysis", "Sentiment Analysis", "Customer Insights"],
-    "runtimeCategory": ["Cloud Agents", "API Agents"],
+    "capabilityCategory": [
+      "Feedback Analysis",
+      "Sentiment Analysis",
+      "Customer Insights"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "API Agents"
+    ],
     "problemSolved": "Solo operators receive feedback but lack systematic ways to analyze and act on it.",
-    "bestFor": ["product improvement", "customer satisfaction", "feature prioritization"],
-    "notFor": ["real-time customer service", "crisis response"],
-    "inputs": ["feedback sources", "analysis criteria", "product context"],
-    "outputs": ["sentiment analysis", "trend reports", "improvement recommendations", "feedback summaries"],
-    "toolsRequired": ["feedback collection tools", "text analysis software", "survey platforms"],
-    "compatiblePlatforms": ["SurveyMonkey", "Typeform", "custom Python agents"],
+    "bestFor": [
+      "product improvement",
+      "customer satisfaction",
+      "feature prioritization"
+    ],
+    "notFor": [
+      "real-time customer service",
+      "crisis response"
+    ],
+    "inputs": [
+      "feedback sources",
+      "analysis criteria",
+      "product context"
+    ],
+    "outputs": [
+      "sentiment analysis",
+      "trend reports",
+      "improvement recommendations",
+      "feedback summaries"
+    ],
+    "toolsRequired": [
+      "feedback collection tools",
+      "text analysis software",
+      "survey platforms"
+    ],
+    "compatiblePlatforms": [
+      "SurveyMonkey",
+      "Typeform",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -991,16 +1808,41 @@
     ],
     "examplePrompt": "Analyze customer feedback from support tickets and surveys to identify top improvement areas.",
     "exampleOutput": "Feedback analysis report with sentiment trends, common themes, and prioritized action items.",
-    "failureModes": ["Ignoring negative feedback", "Over-reacting to outliers", "Failing to close the feedback loop"],
-    "whyUseThis": ["Improves customer satisfaction", "Identifies product issues early", "Supports data-driven improvements"],
-    "whenNotToUse": ["When you have a customer success team", "For immediate customer service needs"],
+    "failureModes": [
+      "Ignoring negative feedback",
+      "Over-reacting to outliers",
+      "Failing to close the feedback loop"
+    ],
+    "whyUseThis": [
+      "Improves customer satisfaction",
+      "Identifies product issues early",
+      "Supports data-driven improvements"
+    ],
+    "whenNotToUse": [
+      "When you have a customer success team",
+      "For immediate customer service needs"
+    ],
     "cheaperAlternative": "Manual feedback review and categorization.",
     "saferAlternative": "Use aggregated insights without individual customer data.",
-    "alternatives": ["Customer feedback tools", "Survey platforms", "Support ticket analysis"],
-    "relatedAgents": ["Customer Success Agent"],
-    "relatedWorkflows": ["Customer Feedback Workflow"],
-    "relatedTemplates": ["Feedback Analysis Template"],
-    "affiliateToolSlugs": ["surveymonkey", "typeform", "zendesk"],
+    "alternatives": [
+      "Customer feedback tools",
+      "Survey platforms",
+      "Support ticket analysis"
+    ],
+    "relatedAgents": [
+      "Customer Success Agent"
+    ],
+    "relatedWorkflows": [
+      "Customer Feedback Workflow"
+    ],
+    "relatedTemplates": [
+      "Feedback Analysis Template"
+    ],
+    "affiliateToolSlugs": [
+      "surveymonkey",
+      "typeform",
+      "zendesk"
+    ],
     "targetKeyword": "customer feedback analysis",
     "searchIntent": "implementation",
     "monetizationPriority": "medium",
@@ -1014,15 +1856,46 @@
     "shortDescription": "Automate invoice creation, payment processing, and financial record-keeping for small businesses.",
     "longDescription": "A financial automation skill for generating invoices, processing payments, tracking receivables, and maintaining financial records.",
     "businessFunction": "Finance",
-    "capabilityCategory": ["Invoice Processing", "Payment Automation", "Financial Records"],
-    "runtimeCategory": ["Cloud Agents", "API Agents"],
+    "capabilityCategory": [
+      "Invoice Processing",
+      "Payment Automation",
+      "Financial Records"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "API Agents"
+    ],
     "problemSolved": "Solo operators waste time on manual invoicing and payment tracking.",
-    "bestFor": ["recurring billing", "freelance invoicing", "small business finance"],
-    "notFor": ["complex tax situations", "large enterprise finance"],
-    "inputs": ["billing data", "payment terms", "client information"],
-    "outputs": ["generated invoices", "payment tracking", "financial reports", "reminder automation"],
-    "toolsRequired": ["payment processors", "accounting software", "invoice templates"],
-    "compatiblePlatforms": ["Stripe", "PayPal", "QuickBooks"],
+    "bestFor": [
+      "recurring billing",
+      "freelance invoicing",
+      "small business finance"
+    ],
+    "notFor": [
+      "complex tax situations",
+      "large enterprise finance"
+    ],
+    "inputs": [
+      "billing data",
+      "payment terms",
+      "client information"
+    ],
+    "outputs": [
+      "generated invoices",
+      "payment tracking",
+      "financial reports",
+      "reminder automation"
+    ],
+    "toolsRequired": [
+      "payment processors",
+      "accounting software",
+      "invoice templates"
+    ],
+    "compatiblePlatforms": [
+      "Stripe",
+      "PayPal",
+      "QuickBooks"
+    ],
     "setupDifficulty": "high",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -1054,16 +1927,41 @@
     ],
     "examplePrompt": "Set up automated invoicing for monthly subscription services.",
     "exampleOutput": "Automated invoice generation, payment collection, and overdue reminders.",
-    "failureModes": ["Payment processing errors", "Tax calculation mistakes", "Security breaches"],
-    "whyUseThis": ["Reduces manual accounting work", "Improves cash flow", "Provides financial visibility"],
-    "whenNotToUse": ["When you have an accountant", "For complex financial situations"],
+    "failureModes": [
+      "Payment processing errors",
+      "Tax calculation mistakes",
+      "Security breaches"
+    ],
+    "whyUseThis": [
+      "Reduces manual accounting work",
+      "Improves cash flow",
+      "Provides financial visibility"
+    ],
+    "whenNotToUse": [
+      "When you have an accountant",
+      "For complex financial situations"
+    ],
     "cheaperAlternative": "Manual invoicing with spreadsheet tracking.",
     "saferAlternative": "Use reputable payment processors with strong security.",
-    "alternatives": ["Accounting software", "Payment processing platforms", "Invoicing tools"],
-    "relatedAgents": ["Finance Manager Agent"],
-    "relatedWorkflows": ["Financial Operations Workflow"],
-    "relatedTemplates": ["Invoice Template"],
-    "affiliateToolSlugs": ["stripe", "paypal", "quickbooks"],
+    "alternatives": [
+      "Accounting software",
+      "Payment processing platforms",
+      "Invoicing tools"
+    ],
+    "relatedAgents": [
+      "Finance Manager Agent"
+    ],
+    "relatedWorkflows": [
+      "Financial Operations Workflow"
+    ],
+    "relatedTemplates": [
+      "Invoice Template"
+    ],
+    "affiliateToolSlugs": [
+      "stripe",
+      "paypal",
+      "quickbooks"
+    ],
     "targetKeyword": "automated invoicing",
     "searchIntent": "implementation",
     "monetizationPriority": "medium",
@@ -1077,15 +1975,46 @@
     "shortDescription": "Record, transcribe, and summarize meetings with action items and follow-up tracking.",
     "longDescription": "A meeting productivity skill for capturing discussions, extracting key decisions, assigning action items, and ensuring follow-through.",
     "businessFunction": "Operations",
-    "capabilityCategory": ["Meeting Management", "Transcription", "Task Tracking"],
-    "runtimeCategory": ["Cloud Agents", "API Agents"],
+    "capabilityCategory": [
+      "Meeting Management",
+      "Transcription",
+      "Task Tracking"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "API Agents"
+    ],
     "problemSolved": "Solo operators struggle to capture meeting details and track action items.",
-    "bestFor": ["team meetings", "client calls", "strategy sessions"],
-    "notFor": ["highly confidential discussions", "real-time decision making"],
-    "inputs": ["meeting audio/video", "participant list", "agenda"],
-    "outputs": ["meeting transcripts", "action item lists", "decision summaries", "follow-up reminders"],
-    "toolsRequired": ["recording tools", "transcription services", "task management"],
-    "compatiblePlatforms": ["Zoom", "Google Meet", "custom Python agents"],
+    "bestFor": [
+      "team meetings",
+      "client calls",
+      "strategy sessions"
+    ],
+    "notFor": [
+      "highly confidential discussions",
+      "real-time decision making"
+    ],
+    "inputs": [
+      "meeting audio/video",
+      "participant list",
+      "agenda"
+    ],
+    "outputs": [
+      "meeting transcripts",
+      "action item lists",
+      "decision summaries",
+      "follow-up reminders"
+    ],
+    "toolsRequired": [
+      "recording tools",
+      "transcription services",
+      "task management"
+    ],
+    "compatiblePlatforms": [
+      "Zoom",
+      "Google Meet",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -1117,16 +2046,41 @@
     ],
     "examplePrompt": "Transcribe and summarize a product strategy meeting with action items.",
     "exampleOutput": "Meeting transcript, key decisions, assigned action items, and follow-up schedule.",
-    "failureModes": ["Missing important details", "Incorrect action item assignment", "No follow-through tracking"],
-    "whyUseThis": ["Improves meeting productivity", "Ensures action item completion", "Provides meeting history"],
-    "whenNotToUse": ["For highly sensitive topics", "When real-time participation is required"],
+    "failureModes": [
+      "Missing important details",
+      "Incorrect action item assignment",
+      "No follow-through tracking"
+    ],
+    "whyUseThis": [
+      "Improves meeting productivity",
+      "Ensures action item completion",
+      "Provides meeting history"
+    ],
+    "whenNotToUse": [
+      "For highly sensitive topics",
+      "When real-time participation is required"
+    ],
     "cheaperAlternative": "Manual note-taking during meetings.",
     "saferAlternative": "Use secure recording platforms and limit access.",
-    "alternatives": ["Meeting recording tools", "Transcription services", "Project management software"],
-    "relatedAgents": ["Meeting Facilitator Agent"],
-    "relatedWorkflows": ["Meeting Management Workflow"],
-    "relatedTemplates": ["Meeting Notes Template"],
-    "affiliateToolSlugs": ["zoom", "otter", "fireflies"],
+    "alternatives": [
+      "Meeting recording tools",
+      "Transcription services",
+      "Project management software"
+    ],
+    "relatedAgents": [
+      "Meeting Facilitator Agent"
+    ],
+    "relatedWorkflows": [
+      "Meeting Management Workflow"
+    ],
+    "relatedTemplates": [
+      "Meeting Notes Template"
+    ],
+    "affiliateToolSlugs": [
+      "zoom",
+      "otter",
+      "fireflies"
+    ],
     "targetKeyword": "meeting transcription",
     "searchIntent": "implementation",
     "monetizationPriority": "medium",
@@ -1140,15 +2094,46 @@
     "shortDescription": "Analyze code changes for bugs, security issues, and improvement opportunities.",
     "longDescription": "A development skill for reviewing code submissions, identifying potential issues, suggesting improvements, and ensuring code quality standards.",
     "businessFunction": "Development",
-    "capabilityCategory": ["Code Review", "Quality Assurance", "Security Analysis"],
-    "runtimeCategory": ["Codex / IDE Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Code Review",
+      "Quality Assurance",
+      "Security Analysis"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo developers lack code review partners for quality assurance.",
-    "bestFor": ["bug detection", "security review", "code improvement"],
-    "notFor": ["architectural design", "performance optimization"],
-    "inputs": ["code changes", "coding standards", "project context"],
-    "outputs": ["issue identification", "improvement suggestions", "security alerts", "code quality metrics"],
-    "toolsRequired": ["code analysis tools", "linting software", "security scanners"],
-    "compatiblePlatforms": ["GitHub", "GitLab", "custom Python agents"],
+    "bestFor": [
+      "bug detection",
+      "security review",
+      "code improvement"
+    ],
+    "notFor": [
+      "architectural design",
+      "performance optimization"
+    ],
+    "inputs": [
+      "code changes",
+      "coding standards",
+      "project context"
+    ],
+    "outputs": [
+      "issue identification",
+      "improvement suggestions",
+      "security alerts",
+      "code quality metrics"
+    ],
+    "toolsRequired": [
+      "code analysis tools",
+      "linting software",
+      "security scanners"
+    ],
+    "compatiblePlatforms": [
+      "GitHub",
+      "GitLab",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "low",
     "humanApprovalRequired": true,
@@ -1180,16 +2165,41 @@
     ],
     "examplePrompt": "Review a pull request for a web application and identify potential issues.",
     "exampleOutput": "Code review report with bug fixes, security concerns, and improvement suggestions.",
-    "failureModes": ["False positives", "Missing critical issues", "Overly strict standards"],
-    "whyUseThis": ["Improves code quality", "Catches bugs early", "Enhances security"],
-    "whenNotToUse": ["When you have a development team", "For experimental code"],
+    "failureModes": [
+      "False positives",
+      "Missing critical issues",
+      "Overly strict standards"
+    ],
+    "whyUseThis": [
+      "Improves code quality",
+      "Catches bugs early",
+      "Enhances security"
+    ],
+    "whenNotToUse": [
+      "When you have a development team",
+      "For experimental code"
+    ],
     "cheaperAlternative": "Manual code review checklists.",
     "saferAlternative": "Use established linting and security tools.",
-    "alternatives": ["Code review tools", "Static analysis software", "Peer code review"],
-    "relatedAgents": ["Code Review Agent"],
-    "relatedWorkflows": ["Development Workflow"],
-    "relatedTemplates": ["Code Review Template"],
-    "affiliateToolSlugs": ["github", "sonarcloud", "deepcode"],
+    "alternatives": [
+      "Code review tools",
+      "Static analysis software",
+      "Peer code review"
+    ],
+    "relatedAgents": [
+      "Code Review Agent"
+    ],
+    "relatedWorkflows": [
+      "Development Workflow"
+    ],
+    "relatedTemplates": [
+      "Code Review Template"
+    ],
+    "affiliateToolSlugs": [
+      "github",
+      "sonarcloud",
+      "deepcode"
+    ],
     "targetKeyword": "automated code review",
     "searchIntent": "implementation",
     "monetizationPriority": "low",
@@ -1203,15 +2213,47 @@
     "shortDescription": "Analyze feature requests, user feedback, and business goals to prioritize product development.",
     "longDescription": "A product management skill for evaluating feature requests, assessing business impact, and creating prioritized development roadmaps.",
     "businessFunction": "Product",
-    "capabilityCategory": ["Product Management", "Prioritization", "Roadmapping"],
-    "runtimeCategory": ["Codex / IDE Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Product Management",
+      "Prioritization",
+      "Roadmapping"
+    ],
+    "runtimeCategory": [
+      "Codex / IDE Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo product owners struggle to prioritize features without data-driven frameworks.",
-    "bestFor": ["feature prioritization", "roadmap planning", "resource allocation"],
-    "notFor": ["market research", "user testing"],
-    "inputs": ["feature requests", "user feedback", "business metrics", "technical constraints"],
-    "outputs": ["prioritized backlog", "development roadmap", "impact assessments", "resource recommendations"],
-    "toolsRequired": ["product management tools", "data analysis", "prioritization frameworks"],
-    "compatiblePlatforms": ["Jira", "Linear", "custom Python agents"],
+    "bestFor": [
+      "feature prioritization",
+      "roadmap planning",
+      "resource allocation"
+    ],
+    "notFor": [
+      "market research",
+      "user testing"
+    ],
+    "inputs": [
+      "feature requests",
+      "user feedback",
+      "business metrics",
+      "technical constraints"
+    ],
+    "outputs": [
+      "prioritized backlog",
+      "development roadmap",
+      "impact assessments",
+      "resource recommendations"
+    ],
+    "toolsRequired": [
+      "product management tools",
+      "data analysis",
+      "prioritization frameworks"
+    ],
+    "compatiblePlatforms": [
+      "Jira",
+      "Linear",
+      "custom Python agents"
+    ],
     "setupDifficulty": "medium",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -1243,16 +2285,41 @@
     ],
     "examplePrompt": "Prioritize a product backlog of 20 features for the next quarter.",
     "exampleOutput": "Prioritized feature list with impact scores, effort estimates, and release recommendations.",
-    "failureModes": ["Ignoring technical debt", "Over-prioritizing low-impact features", "Failing to consider dependencies"],
-    "whyUseThis": ["Improves product strategy", "Optimizes development resources", "Aligns with business goals"],
-    "whenNotToUse": ["When you have a product manager", "For very small projects"],
+    "failureModes": [
+      "Ignoring technical debt",
+      "Over-prioritizing low-impact features",
+      "Failing to consider dependencies"
+    ],
+    "whyUseThis": [
+      "Improves product strategy",
+      "Optimizes development resources",
+      "Aligns with business goals"
+    ],
+    "whenNotToUse": [
+      "When you have a product manager",
+      "For very small projects"
+    ],
     "cheaperAlternative": "Manual prioritization spreadsheets.",
     "saferAlternative": "Include stakeholder review in prioritization process.",
-    "alternatives": ["Product management tools", "Prioritization frameworks", "Agile planning methods"],
-    "relatedAgents": ["Product Manager Agent"],
-    "relatedWorkflows": ["Product Development Workflow"],
-    "relatedTemplates": ["Product Backlog Template"],
-    "affiliateToolSlugs": ["linear", "jira", "productboard"],
+    "alternatives": [
+      "Product management tools",
+      "Prioritization frameworks",
+      "Agile planning methods"
+    ],
+    "relatedAgents": [
+      "Product Manager Agent"
+    ],
+    "relatedWorkflows": [
+      "Product Development Workflow"
+    ],
+    "relatedTemplates": [
+      "Product Backlog Template"
+    ],
+    "affiliateToolSlugs": [
+      "linear",
+      "jira",
+      "productboard"
+    ],
     "targetKeyword": "product backlog prioritization",
     "searchIntent": "implementation",
     "monetizationPriority": "medium",
@@ -1266,15 +2333,45 @@
     "shortDescription": "Monitor business operations and content for regulatory compliance and risk management.",
     "longDescription": "A compliance skill for reviewing business practices, content, and operations against relevant regulations and industry standards.",
     "businessFunction": "Operations",
-    "capabilityCategory": ["Compliance", "Risk Management", "Regulatory Monitoring"],
-    "runtimeCategory": ["Cloud Agents", "Local Agents"],
+    "capabilityCategory": [
+      "Compliance",
+      "Risk Management",
+      "Regulatory Monitoring"
+    ],
+    "runtimeCategory": [
+      "Cloud Agents",
+      "Local Agents"
+    ],
     "problemSolved": "Solo operators need compliance monitoring but lack legal expertise.",
-    "bestFor": ["content compliance", "data privacy", "industry regulations"],
-    "notFor": ["legal advice", "complex regulatory filings"],
-    "inputs": ["business operations", "content to review", "regulatory requirements"],
-    "outputs": ["compliance reports", "risk assessments", "remediation recommendations", "audit trails"],
-    "toolsRequired": ["compliance databases", "monitoring tools", "documentation systems"],
-    "compatiblePlatforms": ["Custom Python agents", "Compliance software"],
+    "bestFor": [
+      "content compliance",
+      "data privacy",
+      "industry regulations"
+    ],
+    "notFor": [
+      "legal advice",
+      "complex regulatory filings"
+    ],
+    "inputs": [
+      "business operations",
+      "content to review",
+      "regulatory requirements"
+    ],
+    "outputs": [
+      "compliance reports",
+      "risk assessments",
+      "remediation recommendations",
+      "audit trails"
+    ],
+    "toolsRequired": [
+      "compliance databases",
+      "monitoring tools",
+      "documentation systems"
+    ],
+    "compatiblePlatforms": [
+      "Custom Python agents",
+      "Compliance software"
+    ],
     "setupDifficulty": "high",
     "maintenanceEffort": "medium",
     "humanApprovalRequired": true,
@@ -1306,21 +2403,1670 @@
     ],
     "examplePrompt": "Review website content for GDPR compliance and identify potential issues.",
     "exampleOutput": "Compliance audit report with identified issues and remediation steps.",
-    "failureModes": ["Missing regulatory changes", "Over-compliance burden", "False compliance assurance"],
-    "whyUseThis": ["Reduces legal risks", "Ensures regulatory compliance", "Protects business reputation"],
-    "whenNotToUse": ["When you have legal counsel", "For highly specialized regulations"],
+    "failureModes": [
+      "Missing regulatory changes",
+      "Over-compliance burden",
+      "False compliance assurance"
+    ],
+    "whyUseThis": [
+      "Reduces legal risks",
+      "Ensures regulatory compliance",
+      "Protects business reputation"
+    ],
+    "whenNotToUse": [
+      "When you have legal counsel",
+      "For highly specialized regulations"
+    ],
     "cheaperAlternative": "Manual compliance checklists.",
     "saferAlternative": "Consult legal professionals for complex compliance issues.",
-    "alternatives": ["Compliance management software", "Legal consultation", "Industry standards"],
-    "relatedAgents": ["Compliance Officer Agent"],
-    "relatedWorkflows": ["Compliance Management Workflow"],
-    "relatedTemplates": ["Compliance Checklist Template"],
+    "alternatives": [
+      "Compliance management software",
+      "Legal consultation",
+      "Industry standards"
+    ],
+    "relatedAgents": [
+      "Compliance Officer Agent"
+    ],
+    "relatedWorkflows": [
+      "Compliance Management Workflow"
+    ],
+    "relatedTemplates": [
+      "Compliance Checklist Template"
+    ],
     "affiliateToolSlugs": [],
     "targetKeyword": "business compliance monitoring",
     "searchIntent": "implementation",
     "monetizationPriority": "low",
     "status": "ready",
     "lastReviewedAt": "2026-05-05"
+  },
+  {
+    "id": "skill-openclaw-claude-cost-optimizer",
+    "name": "cost-optimizer",
+    "slug": "openclaw-claude-cost-optimizer",
+    "shortDescription": "Trigger when the user asks to audit Claude Code costs, reduce token spend, says \"my Claude bill is too high\", \"optimize my CLAUDE.md\", \"why is this project burning tokens\", or \"/cost-optimizer\". Scans a project for the common Claude Code cost leaks and returns a prioritized fix list.",
+    "longDescription": "# Cost Optimizer\n\nAudit a project's Claude Code setup for the handful of well-known cost leaks and output a prioritized remediation list. This is a static inspection — no pricing API calls, no guesswork about past spend.\n\n## When to use\n\n- \"My Claude Code bill doubled this month — what's going on?\"\n- \"Audit this project for token waste\"\n- \"Why is my session context always huge?\"\n- Post-mortem after a runaway agent run",
+    "businessFunction": "Claude",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "claude"
+    ],
+    "runtimeCategory": [
+      "Claude Agent"
+    ],
+    "problemSolved": "Automate cost-optimizer tasks using claude",
+    "bestFor": [
+      "cost-optimizer automation",
+      "claude workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test cost-optimizer skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Run each check and record `PASS` / `WARN` / `FAIL` with a short note."
+    ],
+    "examplePrompt": "Run /cost-optimizer on my project",
+    "exampleOutput": "Completed cost-optimizer task with results",
+    "failureModes": [
+      "Over-complicating simple cost-optimizer tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw claude collection",
+      "Automates cost-optimizer reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw claude agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "cost-optimizer claude skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/claude/cost-optimizer/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-claude-excalidraw-architecture",
+    "name": "excalidraw-architecture",
+    "slug": "openclaw-claude-excalidraw-architecture",
+    "shortDescription": "Trigger when the user asks for an architecture diagram, says \"draw the system\", \"update the architecture diagram\", \"give me an excalidraw of this codebase\", or \"/excalidraw-architecture\". Generates or updates an Excalidraw JSON file at docs/architecture.excalidraw by reading the codebase's key entry points.",
+    "longDescription": "# Excalidraw Architecture\n\nProduce an architecture diagram of the current project as an Excalidraw file (`docs/architecture.excalidraw`). The diagram shows services, entry points, data stores, and the edges between them — the kind of whiteboard sketch you'd draw in a design review.\n\nInspired by Bilgin Ibryam's Medium post on \"Architecture diagrams as code with Claude Code + Excalidraw\" — credit: [@bibryam](https://medium.com/@bibryam). This skill is a lightweight reimplementation for OpenClaw-st",
+    "businessFunction": "Claude",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "claude"
+    ],
+    "runtimeCategory": [
+      "Claude Agent"
+    ],
+    "problemSolved": "Automate excalidraw-architecture tasks using claude",
+    "bestFor": [
+      "excalidraw-architecture automation",
+      "claude workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test excalidraw-architecture skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the excalidraw-architecture skill definition",
+      "Configure the skill in your claude setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /excalidraw-architecture on my project",
+    "exampleOutput": "Completed excalidraw-architecture task with results",
+    "failureModes": [
+      "Over-complicating simple excalidraw-architecture tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw claude collection",
+      "Automates excalidraw-architecture reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw claude agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "excalidraw-architecture claude skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/claude/excalidraw-architecture/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-claude-git-commit-writer",
+    "name": "git-commit-writer",
+    "slug": "openclaw-claude-git-commit-writer",
+    "shortDescription": "Trigger when the user asks to write a commit message, generate a commit from staged changes, review a diff before committing, or says \"/commit\". Reads git diff --staged and produces an opinionated, convention-matching commit message.",
+    "longDescription": "# Git Commit Writer\n\nGenerate a disciplined commit message from the currently staged changes. Opinionated about style: imperative mood, concise title, body that explains **why** not **what**.\n\n## When to use\n\n- User says \"write a commit message\", \"/commit\", \"commit this\"\n- User has staged changes and asks to review them before committing\n- User asks \"what should this commit be called\"\n",
+    "businessFunction": "Claude",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "claude"
+    ],
+    "runtimeCategory": [
+      "Claude Agent"
+    ],
+    "problemSolved": "Automate git-commit-writer tasks using claude",
+    "bestFor": [
+      "git-commit-writer automation",
+      "claude workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test git-commit-writer skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the git-commit-writer skill definition",
+      "Configure the skill in your claude setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /git-commit-writer on my project",
+    "exampleOutput": "Completed git-commit-writer task with results",
+    "failureModes": [
+      "Over-complicating simple git-commit-writer tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw claude collection",
+      "Automates git-commit-writer reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw claude agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "git-commit-writer claude skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/claude/git-commit-writer/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-claude-model-cost-compare",
+    "name": "model-cost-compare",
+    "slug": "openclaw-claude-model-cost-compare",
+    "shortDescription": "Trigger when the user asks which model to use, wants to compare model costs, says \"what's cheapest for this task\", \"should I use Opus or Sonnet\", \"can a smaller model handle this\", or \"/model-cost-compare\". Estimates token cost across Opus 4.6, Sonnet 4.6, GLM-5.1, Minimax M2.7, and local Gemma 4, then recommends the cheapest model capable of the task.",
+    "longDescription": "# Model Cost Compare\n\nGiven a task description (and optionally a rough prompt / input size), estimate the cost of running it on each available model tier and recommend the cheapest one that can actually do the job.\n\n## When to use\n\n- \"Which model should I use for X?\"\n- \"Is it worth running this on Opus or will Sonnet do?\"\n- \"Can I offload this to a local model?\"\n- \"/model-cost-compare — classify 10k support tickets\"",
+    "businessFunction": "Claude",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "claude"
+    ],
+    "runtimeCategory": [
+      "Claude Agent"
+    ],
+    "problemSolved": "Automate model-cost-compare tasks using claude",
+    "bestFor": [
+      "model-cost-compare automation",
+      "claude workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test model-cost-compare skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the model-cost-compare skill definition",
+      "Configure the skill in your claude setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /model-cost-compare on my project",
+    "exampleOutput": "Completed model-cost-compare task with results",
+    "failureModes": [
+      "Over-complicating simple model-cost-compare tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw claude collection",
+      "Automates model-cost-compare reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw claude agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "model-cost-compare claude skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/claude/model-cost-compare/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-claude-openclaw-debugger",
+    "name": "openclaw-debugger",
+    "slug": "openclaw-claude-openclaw-debugger",
+    "shortDescription": "Trigger when an OpenClaw agent is broken, silent, crashing, stuck, not responding, returning empty output, or the user says \"my agent is down\", \"agent not working\", \"/openclaw-debugger\". Walks through the standard OpenClaw 2026.4 diagnosis checklist and prints a report.",
+    "longDescription": "# OpenClaw Debugger\n\nDiagnose a broken OpenClaw agent (Orion, Echo, Radar, or any custom agent from `awesome-openclaw-agents`). Produces a structured diagnosis report identifying the most likely root cause.\n\nCompatible with OpenClaw 2026.4.11 and later. For deeper reference see `TROUBLESHOOTING.md` in this repo.\n\n## When to use\n\n- Agent returns empty output or times out\n- `openclaw agent --agent <name> --message \"...\"` hangs",
+    "businessFunction": "Claude",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "claude"
+    ],
+    "runtimeCategory": [
+      "Claude Agent"
+    ],
+    "problemSolved": "Automate openclaw-debugger tasks using claude",
+    "bestFor": [
+      "openclaw-debugger automation",
+      "claude workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test openclaw-debugger skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the openclaw-debugger skill definition",
+      "Configure the skill in your claude setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /openclaw-debugger on my project",
+    "exampleOutput": "Completed openclaw-debugger task with results",
+    "failureModes": [
+      "Over-complicating simple openclaw-debugger tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw claude collection",
+      "Automates openclaw-debugger reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw claude agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "openclaw-debugger claude skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/claude/openclaw-debugger/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-code-explainer",
+    "name": "code-explainer",
+    "slug": "openclaw-gemma-code-explainer",
+    "shortDescription": "Paste any code snippet and get a plain English explanation of what it does and how it works.",
+    "longDescription": "# Code Explainer\n\nUnderstand any code instantly. Works with Python, JavaScript, SQL, Bash, TypeScript, Go, and more.\n\n## Examples\n\n* \"Explain this Python: def fib(n): return n if n <= 1 else fib(n-1) + fib(n-2)\"\n* \"What does this do: arr.reduce((acc, x) => acc + x, 0)\"\n* \"Explain: SELECT * FROM logs WHERE level = 'error' ORDER BY created_at DESC LIMIT 100\"\n* \"What is this bash script doing: find . -name '*.log' -mtime +7 -delete\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate code-explainer tasks using gemma",
+    "bestFor": [
+      "code-explainer automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test code-explainer skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the code-explainer skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /code-explainer on my project",
+    "exampleOutput": "Completed code-explainer task with results",
+    "failureModes": [
+      "Over-complicating simple code-explainer tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates code-explainer reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "code-explainer gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/code-explainer/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-commit-message",
+    "name": "commit-message",
+    "slug": "openclaw-gemma-commit-message",
+    "shortDescription": "Generate a clean, conventional commit message from a description of your changes.",
+    "longDescription": "# Commit Message Generator\n\nDescribe what you changed and get a properly formatted conventional commit message.\n\n## Examples\n\n* \"I added a dark mode toggle to the settings page\"\n* \"Fixed the bug where login fails when email has uppercase letters\"\n* \"Refactored the database connection pool to use async/await\"\n* \"Updated dependencies and removed unused packages\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate commit-message tasks using gemma",
+    "bestFor": [
+      "commit-message automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test commit-message skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the commit-message skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /commit-message on my project",
+    "exampleOutput": "Completed commit-message task with results",
+    "failureModes": [
+      "Over-complicating simple commit-message tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates commit-message reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "commit-message gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/commit-message/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-cover-letter",
+    "name": "cover-letter",
+    "slug": "openclaw-gemma-cover-letter",
+    "shortDescription": "Describe the role and your background, get a concise, compelling cover letter paragraph.",
+    "longDescription": "# Cover Letter\n\nGive Gemma the job title, company, and a few words about yourself. Get a sharp cover letter opening paragraph — ready to send.\n\n## Examples\n\n* \"Software engineer at Stripe, 4 years React experience, previously at a fintech startup\"\n* \"Product manager at a healthcare startup, background in data analytics and user research\"\n* \"Marketing manager at Nike, 3 years in growth marketing, strong in paid social\"\n* \"Data scientist at Google, PhD in statistics, built ML models for e-commerce",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate cover-letter tasks using gemma",
+    "bestFor": [
+      "cover-letter automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test cover-letter skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the cover-letter skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /cover-letter on my project",
+    "exampleOutput": "Completed cover-letter task with results",
+    "failureModes": [
+      "Over-complicating simple cover-letter tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates cover-letter reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "cover-letter gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/cover-letter/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-growth-ideas",
+    "name": "growth-ideas",
+    "slug": "openclaw-gemma-growth-ideas",
+    "shortDescription": "Describe your product or project and get three actionable growth ideas tailored to your stage.",
+    "longDescription": "# Growth Ideas\n\nTell Gemma what you're building and where you're stuck. Get three specific, actionable growth tactics — no fluff.\n\n## Examples\n\n* \"SaaS tool for freelancers, 50 users, struggling with retention\"\n* \"Mobile app, just launched, no marketing budget\"\n* \"Newsletter with 200 subscribers, want to grow faster\"\n* \"Open source project with 500 GitHub stars, want more contributors\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate growth-ideas tasks using gemma",
+    "bestFor": [
+      "growth-ideas automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test growth-ideas skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the growth-ideas skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /growth-ideas on my project",
+    "exampleOutput": "Completed growth-ideas task with results",
+    "failureModes": [
+      "Over-complicating simple growth-ideas tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates growth-ideas reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "growth-ideas gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/growth-ideas/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-haiku-card",
+    "name": "haiku-card",
+    "slug": "openclaw-gemma-haiku-card",
+    "shortDescription": "Write a haiku about a topic and render it as a shareable card.",
+    "longDescription": "# Haiku Card\n\nWrite a haiku (5-7-5) and display it on a decorative card.\n\n## Examples\n\n* \"Write a haiku about ocean\"\n* \"Make a haiku about monday morning\"\n* \"Haiku card: cherry blossoms\"\n",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate haiku-card tasks using gemma",
+    "bestFor": [
+      "haiku-card automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test haiku-card skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the haiku-card skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /haiku-card on my project",
+    "exampleOutput": "Completed haiku-card task with results",
+    "failureModes": [
+      "Over-complicating simple haiku-card tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates haiku-card reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "haiku-card gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/haiku-card/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-meeting-notes",
+    "name": "meeting-notes",
+    "slug": "openclaw-gemma-meeting-notes",
+    "shortDescription": "Paste raw meeting notes and get a clean summary with key decisions and action items.",
+    "longDescription": "# Meeting Notes\n\nTurn messy meeting notes into a structured summary. Decisions, action items, and next steps — all extracted automatically.\n\n## Examples\n\n* \"john said we should push the launch to next friday. sarah will handle the email campaign. budget approved at 5k. need to check with legal about the contract.\"\n* \"discussed q2 roadmap. feature x gets priority. mike owns backend. lisa does design by end of month. still unclear on pricing.\"\n* \"standup: blocked on api keys. will unblock tomorrow",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate meeting-notes tasks using gemma",
+    "bestFor": [
+      "meeting-notes automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test meeting-notes skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the meeting-notes skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /meeting-notes on my project",
+    "exampleOutput": "Completed meeting-notes task with results",
+    "failureModes": [
+      "Over-complicating simple meeting-notes tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates meeting-notes reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "meeting-notes gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/meeting-notes/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-pricing-advisor",
+    "name": "pricing-advisor",
+    "slug": "openclaw-gemma-pricing-advisor",
+    "shortDescription": "Describe your product and target customer, get a pricing strategy with three tiers and rationale.",
+    "longDescription": "# Pricing Advisor\n\nStop guessing your price. Describe what you built and who it's for — get a concrete pricing structure with the reasoning behind it.\n\n## Examples\n\n* \"SaaS tool for freelancers that automates invoicing, early stage\"\n* \"Mobile app for fitness tracking, subscription model, targeting gym-goers\"\n* \"API service for developers that does image compression, usage-based\"\n* \"Online course about marketing for small business owners\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate pricing-advisor tasks using gemma",
+    "bestFor": [
+      "pricing-advisor automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test pricing-advisor skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the pricing-advisor skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /pricing-advisor on my project",
+    "exampleOutput": "Completed pricing-advisor task with results",
+    "failureModes": [
+      "Over-complicating simple pricing-advisor tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates pricing-advisor reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "pricing-advisor gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/pricing-advisor/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-regex-builder",
+    "name": "regex-builder",
+    "slug": "openclaw-gemma-regex-builder",
+    "shortDescription": "Describe a text pattern in plain English and get a working regular expression with an explanation.",
+    "longDescription": "# Regex Builder\n\nTurn plain English into a working regex. No regex knowledge required.\n\n## Examples\n\n* \"Match email addresses\"\n* \"Find all phone numbers in format 555-123-4567\"\n* \"Match URLs that start with https\"\n* \"Find words that start with capital letters\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate regex-builder tasks using gemma",
+    "bestFor": [
+      "regex-builder automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test regex-builder skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the regex-builder skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /regex-builder on my project",
+    "exampleOutput": "Completed regex-builder task with results",
+    "failureModes": [
+      "Over-complicating simple regex-builder tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates regex-builder reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "regex-builder gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/regex-builder/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-sql-explainer",
+    "name": "sql-explainer",
+    "slug": "openclaw-gemma-sql-explainer",
+    "shortDescription": "Paste a SQL query and get a plain English explanation of what it does.",
+    "longDescription": "# SQL Explainer\n\nTurn any SQL query into a clear, plain English breakdown. No database knowledge required.\n\n## Examples\n\n* \"SELECT * FROM users WHERE created_at > NOW() - INTERVAL 7 DAY\"\n* \"Explain: SELECT p.name, COUNT(o.id) FROM products p LEFT JOIN orders o ON p.id = o.product_id GROUP BY p.id\"\n* \"What does this do: DELETE FROM sessions WHERE expires_at < NOW()\"\n* \"EXPLAIN SELECT u.email, SUM(o.total) FROM users u JOIN orders o ON u.id = o.user_id GROUP BY u.id HAVING SUM(o.total) > 1000\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate sql-explainer tasks using gemma",
+    "bestFor": [
+      "sql-explainer automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test sql-explainer skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the sql-explainer skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /sql-explainer on my project",
+    "exampleOutput": "Completed sql-explainer task with results",
+    "failureModes": [
+      "Over-complicating simple sql-explainer tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates sql-explainer reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "sql-explainer gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/sql-explainer/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-standup-summary",
+    "name": "standup-summary",
+    "slug": "openclaw-gemma-standup-summary",
+    "shortDescription": "Tell Gemma what you did, what you're working on, and any blockers. Get a clean standup update.",
+    "longDescription": "# Standup Summary\n\nFormat your daily standup in seconds. Works for async standups, Slack updates, and team check-ins.\n\n## Examples\n\n* \"finished the auth flow, working on dashboard today, no blockers\"\n* \"reviewed 3 PRs yesterday, today finishing the API integration, blocked on credentials from devops\"\n* \"wrote blog post draft, need to edit and publish today, waiting on design assets\"\n* \"fixed 2 bugs, implementing search feature today, no blockers but might need help with indexing\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate standup-summary tasks using gemma",
+    "bestFor": [
+      "standup-summary automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test standup-summary skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the standup-summary skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /standup-summary on my project",
+    "exampleOutput": "Completed standup-summary task with results",
+    "failureModes": [
+      "Over-complicating simple standup-summary tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates standup-summary reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "standup-summary gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/standup-summary/SKILL.md"
+  },
+  {
+    "id": "skill-openclaw-gemma-tone-shifter",
+    "name": "tone-shifter",
+    "slug": "openclaw-gemma-tone-shifter",
+    "shortDescription": "Rewrite any text in a different tone — formal, casual, friendly, bold, or concise.",
+    "longDescription": "# Tone Shifter\n\nPaste text and choose a tone. Get an instantly rewritten version that says the same thing differently.\n\n## Examples\n\n* \"Make this more formal: hey just checking if you got my email\"\n* \"Rewrite this as friendly: Your account has been suspended due to non-payment\"\n* \"Make this concise: I wanted to reach out to you today to discuss the possibility of potentially collaborating\"\n* \"Bold tone: We are considering launching a new product next quarter\"",
+    "businessFunction": "Gemma",
+    "capabilityCategory": [
+      "Automation",
+      "AI Skill",
+      "gemma"
+    ],
+    "runtimeCategory": [
+      "Gemma Agent"
+    ],
+    "problemSolved": "Automate tone-shifter tasks using gemma",
+    "bestFor": [
+      "tone-shifter automation",
+      "gemma workflows"
+    ],
+    "notFor": [
+      "Non-automated tasks",
+      "Manual processes"
+    ],
+    "inputs": [
+      "User request",
+      "Project context"
+    ],
+    "outputs": [
+      "Automated results",
+      "Task completion"
+    ],
+    "toolsRequired": [
+      "Gemma",
+      "OpenClaw"
+    ],
+    "compatiblePlatforms": [
+      "OpenClaw",
+      "ClawHub"
+    ],
+    "setupDifficulty": "easy",
+    "maintenanceEffort": "low",
+    "humanApprovalRequired": true,
+    "securityRisk": "low",
+    "privacyRisk": "low",
+    "externalToolAccess": false,
+    "fileSystemAccess": true,
+    "networkAccess": false,
+    "credentialRequirement": "None for local execution.",
+    "humanApprovalBoundary": "User approves task execution and reviews output.",
+    "safeTestModeRecommendation": "Test tone-shifter skill on a sample project first.",
+    "opcFitScore": 8,
+    "scoreBreakdown": {
+      "businessImpact": 8,
+      "setupSimplicity": 9,
+      "maintenanceBurden": 9,
+      "supervisionNeed": 7,
+      "costFriendliness": 9,
+      "securityRisk": 8,
+      "repeatability": 9,
+      "soloUsefulness": 8
+    },
+    "implementationSteps": [
+      "Read the tone-shifter skill definition",
+      "Configure the skill in your gemma setup",
+      "Test with a sample task",
+      "Deploy for regular use"
+    ],
+    "examplePrompt": "Run /tone-shifter on my project",
+    "exampleOutput": "Completed tone-shifter task with results",
+    "failureModes": [
+      "Over-complicating simple tone-shifter tasks",
+      "Missing context for task"
+    ],
+    "whyUseThis": [
+      "Real skill from OpenClaw gemma collection",
+      "Automates tone-shifter reliably"
+    ],
+    "whenNotToUse": [
+      "When the task is too simple",
+      "When manual control is preferred"
+    ],
+    "cheaperAlternative": "Manual execution without automation",
+    "saferAlternative": "Require human review before each execution",
+    "alternatives": [
+      "Manual process",
+      "Other automation tools"
+    ],
+    "relatedAgents": [
+      "OpenClaw gemma agent"
+    ],
+    "relatedWorkflows": [],
+    "relatedTemplates": [],
+    "affiliateToolSlugs": [],
+    "targetKeyword": "tone-shifter gemma skill",
+    "searchIntent": "implementation",
+    "monetizationPriority": "medium",
+    "status": "ready",
+    "lastReviewedAt": "2026-05-06",
+    "_source": "mergisi/awesome-openclaw-agents",
+    "_sourceUrl": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/skills/gemma/tone-shifter/SKILL.md"
   }
 ]
-
