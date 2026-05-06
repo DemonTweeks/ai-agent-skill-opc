@@ -11,7 +11,6 @@ function createClient() {
 }
 
 declare global {
-  // eslint-disable-next-line no-var
   var __pgClient: Client | undefined;
 }
 
@@ -89,6 +88,54 @@ export async function logAffiliateClick(details: AffiliateClickInsert) {
       utmSource,
       utmMedium,
       utmCampaign
+    ]
+  );
+}
+
+export type UserFeedbackInsert = {
+  pagePath?: string | null;
+  pageUrl?: string | null;
+  rating?: number | null;
+  category?: string | null;
+  feedback?: string | null;
+  email?: string | null;
+  metadata?: Record<string, unknown> | null;
+};
+
+export async function logFeedback(details: UserFeedbackInsert) {
+  if (!process.env.DATABASE_URL) {
+    return;
+  }
+
+  const client = await getClient();
+  const {
+    pagePath,
+    pageUrl,
+    rating,
+    category,
+    feedback,
+    email,
+    metadata
+  } = details;
+
+  await client.query(
+    `INSERT INTO user_feedback (
+      page_path,
+      page_url,
+      rating,
+      category,
+      feedback,
+      email,
+      metadata
+    ) VALUES ($1,$2,$3,$4,$5,$6,$7)`,
+    [
+      pagePath,
+      pageUrl,
+      rating,
+      category,
+      feedback,
+      email,
+      metadata ? JSON.stringify(metadata) : null
     ]
   );
 }

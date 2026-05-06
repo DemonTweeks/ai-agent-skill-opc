@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { allSkills, getSkill, resolveRelatedLinks } from "@/lib/data";
 
 type PageProps = {
@@ -105,6 +106,8 @@ export default async function SkillDetailPage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/skills/${skill.slug}`} />
     </main>
   );
 }

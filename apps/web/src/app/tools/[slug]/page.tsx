@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { allTools, getTool, resolveRelatedLinks } from "@/lib/data";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -64,6 +65,8 @@ export default async function ToolPage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/tools/${tool.slug}`} />
     </main>
   );
 }

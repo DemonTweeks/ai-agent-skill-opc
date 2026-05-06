@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import {
   allComparisons,
   getComparison,
@@ -129,6 +130,8 @@ export default async function ComparisonDetailPage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/comparisons/${comparison.slug}`} />
     </main>
   );
 }

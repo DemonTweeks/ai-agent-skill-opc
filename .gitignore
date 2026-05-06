@@ -16,3 +16,6 @@ pnpm-debug.log*
 
 .vercel
 .env*.local
+Reference/
+CLAUDE.md
+.claude

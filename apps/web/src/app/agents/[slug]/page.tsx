@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { allAgents, getAgent, resolveRelatedLinks } from "@/lib/data";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -67,6 +68,8 @@ export default async function AgentPage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/agents/${agent.slug}`} />
     </main>
   );
 }

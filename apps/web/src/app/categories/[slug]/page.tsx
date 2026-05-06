@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import {
   allCategories,
   getCategory,
@@ -52,6 +53,9 @@ export default async function CategoryPage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks title="Related starting points" links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/categories/${category.slug}`} />
+
       <section className="section-links">
         <Link className="button" href="/skills">
           Browse skills

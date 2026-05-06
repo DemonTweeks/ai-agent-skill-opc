@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/components/related-links";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { allTemplates, getTemplate, resolveRelatedLinks } from "@/lib/data";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -50,6 +51,8 @@ export default async function TemplatePage({ params }: PageProps) {
         </div>
       </section>
       <RelatedLinks links={relatedLinks} />
+
+      <FeedbackForm pagePath={`/templates/${template.slug}`} />
     </main>
   );
 }
