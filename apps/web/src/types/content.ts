@@ -67,6 +67,9 @@ export type Skill = {
   monetizationPriority: MonetizationPriority;
   status: ContentStatus;
   lastReviewedAt: string;
+  skillDefinition?: string;
+  _source?: string;
+  _sourceUrl?: string;
 };
 
 export type Comparison = {

@@ -35,7 +35,8 @@ function parseSkillMd(content, skillPath) {
     name: "",
     description: "",
     longDescription: "",
-    body: ""
+    body: "",
+    fullContent: content
   };
 
   // Extract frontmatter between ---
@@ -134,6 +135,7 @@ function transformSkill(parsed, skillPath, source) {
     examplePrompt: parsed.body.match(/Example invocation[s]?:\s*\n+([\s\S]*?)(?=\n##|$)/i)?.[1]?.split("\n").find(l => l.trim().startsWith("-"))?.replace(/^-\s*/, "") || `Run /${skillDir} on my project`,
     exampleOutput: `Completed ${skillDir} task with results`,
     failureModes: [`Over-complicating simple ${skillDir} tasks`, "Missing context for task"],
+    skillDefinition: parsed.fullContent || parsed.body || "",
     whyUseThis: [`Real skill from OpenClaw ${model} collection`, `Automates ${skillDir} reliably`],
     whenNotToUse: ["When the task is too simple", "When manual control is preferred"],
     cheaperAlternative: "Manual execution without automation",
@@ -210,12 +212,14 @@ async function main() {
       console.error(`Error fetching OpenClaw skills: ${e.message}`);
     }
 
-    // Merge: keep existing, add new ones that don't exist
+    // Merge: overwrite existing skills from GitHub sources, add new ones
     const existingSlugs = new Set(existingSkills.map(s => s.slug));
-    const toAdd = newSkills.filter(s => !existingSlugs.has(s.slug));
+    const newSlugs = new Set(newSkills.map(s => s.slug));
 
-    const merged = [...existingSkills, ...toAdd];
-    console.log(`Total skills: ${merged.length} (${toAdd.length} new)`);
+    // Remove existing skills that are being re-imported from GitHub
+    const kept = existingSkills.filter(s => !newSlugs.has(s.slug));
+    const merged = [...kept, ...newSkills];
+    console.log(`Total skills: ${merged.length} (${newSkills.length} from GitHub, ${kept.length} existing)`);
 
     // Write updated skills.json
     writeFileSync(

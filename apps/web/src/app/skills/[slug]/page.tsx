@@ -105,6 +105,16 @@ export default async function SkillDetailPage({ params }: PageProps) {
           <p>{skill.lastReviewedAt}</p>
         </div>
       </section>
+      {skill.skillDefinition && (
+        <section className="section">
+          <h2>Skill Definition</h2>
+          <details className="skill-definition" open>
+            <summary>View original SKILL.md content from {skill._source || "GitHub"}</summary>
+            <pre className="skill-source">{skill.skillDefinition}</pre>
+          </details>
+        </section>
+      )}
+
       <RelatedLinks links={relatedLinks} />
 
       <FeedbackForm pagePath={`/skills/${skill.slug}`} />
